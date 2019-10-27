@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lang>Eng</lang>
+  <Questions>
+    <Question>
+      <Info>How is problem formulation based on this phenomenon?</Info>
+      <Answers>
+        <Answer>
+          <info>How is the effect of fishing tool on electrical conductivity of solution?</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>How is the effect of covalent compound type bond on electrical conductivity of solution?</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>How is the effect of solution type on the strength of electrical conductivity?</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Why when electrocuted, fish in sea water die faster than fish in river?</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>How is the effect of substance form on electrical conductivity?</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>How do the hypotheses that correspond to problem formulation based on basic theory?</Info>
+      <Answers>
+        <Answer>
+          <info>Fishing tool affects the electrical conductivity of solution</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>The type bond of covalent compound affects the electric conductivity of solution</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>When fishing by electrifying, fish in seawater die faster than fish in river</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>The type of solution affects the strength of solution electrical conductivity</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>The form of substance affects the electrical conductivity</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>The correct statement about electrolytes is ...</Info>
+      <Answers>
+        <Answer>
+          <info>Substances which are dissolved in water remain molecules</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Substances which are dissolved in water will break down into negative ions and positive ions</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Substances which are dissolved in water will not break down into atoms</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Substances which are dissolved in water will not break down into ions</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Substances which are dissolved in water will break down into certain gases</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>When two substances (A and B) are dissolved in a water solvent then solutions A and B are tested using an electrolyte kit. Solution A can turn on the lamp and the pointer on avometer shows a scale of 1.1 V; while solution B can’t turn on the lamp and the pointer on avometer shows a scale of 0 V. This happens because ...</Info>
+      <Answers>
+        <Answer>
+          <info>Solution A is not ionized and solution B is ionized completely</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Solution A is ionized completely and solution B is not ionized</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Solutions A and B are not ionized</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Solutions A and B are ionized completely</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Solutions A and B are ionized partially</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>A solid substance can’t conduct electricity whereas if the solid substance is dissolved in water, the solution can conduct electricity because ...</Info>
+      <Answers>
+        <Answer>
+          <info>Water can conduct electricity</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Water can be ionized if it contains solutes</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>The solid substance in water breaks down into molecules</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Water provides an electric charge for solid substance</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>The solid substance in water breaks down into ions</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info />
+      <Answers />
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <AnswerType>Single</AnswerType>
+      <AddScore>0</AddScore>
+    </Question>
+  </Questions>
+</Data>
