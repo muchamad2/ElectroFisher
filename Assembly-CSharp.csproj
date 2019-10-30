@@ -44,13 +44,13 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Scripts\Fisher\Claw.cs" />
-     <Compile Include="Assets\Scripts\Fisher\Fish.cs" />
-     <Compile Include="Assets\Scripts\Fisher\Gun.cs" />
-     <Compile Include="Assets\Scripts\Fisher\SpawnFish.cs" />
-     <Compile Include="Assets\Scripts\Platformer\CharacterController2D.cs" />
-     <Compile Include="Assets\Scripts\Platformer\EnemyController.cs" />
-     <Compile Include="Assets\Scripts\Platformer\PlayerMovement.cs" />
+  <ItemGroup>     <Compile Include="Assets\Scripts\Level1\Fisher\Claw.cs" />
+     <Compile Include="Assets\Scripts\Level1\Fisher\Fish.cs" />
+     <Compile Include="Assets\Scripts\Level1\Fisher\Gun.cs" />
+     <Compile Include="Assets\Scripts\Level1\Fisher\SpawnFish.cs" />
+     <Compile Include="Assets\Scripts\Level1\Platformer\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\Level1\Platformer\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\Level1\Platformer\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Quiz\AnswerData.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizUIManager.cs" />
@@ -81,45 +81,6 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -657,6 +618,60 @@
  <Reference Include="Boo.Lang">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{CE9F76AB-3FC3-A6F4-2CCF-ACD69EA5E28E}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{80A286EC-B78E-8599-CDF4-38D51F97C2D0}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{7240E045-6E01-99E7-6E32-1B600BA1DA47}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{1347E785-1520-E2C9-2C3F-583EB5D41DAB}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{D9E04475-B0F1-24D7-4050-5F1EA460A530}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{E5C85B9C-007D-5EB4-73DB-547D9FC903C3}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{6030E546-B2A0-BACA-0E6E-8FCAB40E9C21}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{5C5E19A1-4ED9-6C9A-B978-07A886883866}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{4042BE79-4936-6208-F31A-25532359110D}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{73B19BB7-BB17-19D1-D9C3-D2A32ABED458}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{2316AAF7-F45C-7FA2-60AC-FB8699DF741F}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{5AA250CF-DB2F-2C1A-CDB1-699C4ED6B69C}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{5B5CFE41-1F76-0A91-4B61-74ADCF0BEE2A}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

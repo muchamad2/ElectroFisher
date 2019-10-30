@@ -194,7 +194,7 @@ public class QuizManager : MonoBehaviour
             do
             {
                 random = UnityEngine.Random.Range(0, data.Questions.Length);
-            } while (IncorrectAnswerQuestions.Contains(random));
+            } while (IncorrectAnswerQuestions.Contains(random) || random == currentQuestions);
         }
         return random;
     }
