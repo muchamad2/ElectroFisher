@@ -20,6 +20,7 @@ public class GameManager : Singleton<GameManager>
     public bool isPaused { get; set; }
     private void Awake()
     {
+ 
         if (GameUtility.PlayerHealth <= 0)
         {
             GameUtility.PlayerHealth = playerHealth;
