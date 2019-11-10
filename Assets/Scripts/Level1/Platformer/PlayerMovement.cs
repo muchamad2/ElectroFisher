@@ -37,14 +37,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            GameManager.Instance.TakeDamage();
+            PlatformManager.Instance.TakeDamage();
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Crest"))
         {
-            GameManager.Instance.OpenCrest(0);
+            PlatformManager.Instance.OpenCrest(0);
         }
     }
 }

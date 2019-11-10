@@ -46,12 +46,17 @@
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Scripts\Level1\Fisher\Claw.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\Fish.cs" />
+     <Compile Include="Assets\Scripts\Level1\Fisher\FisherManager.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\Gun.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\SpawnFish.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\Level1\Platformer\PlatformManager.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Level2\DragHandler.cs" />
+     <Compile Include="Assets\Scripts\Level2\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Level2\Slot.cs" />
      <Compile Include="Assets\Scripts\Quiz\AnswerData.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizUIManager.cs" />

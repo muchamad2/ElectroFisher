@@ -40,11 +40,11 @@ public class Claw : MonoBehaviour
             }
             if (retracting)
             {
-                if (GameManager.Instance.isCorrectAnswers)
+                if (FisherManager.Instance.isCorrectAnswers)
                 {
-                    childObject = GameManager.Instance.getChildObject();
+                    childObject = FisherManager.Instance.getChildObject();
                     childObject.transform.SetParent(this.transform);
-                    GameManager.Instance.isCorrectAnswers = false;
+                    FisherManager.Instance.isCorrectAnswers = false;
                 }else{
                     //hitFish = false;
                 }
@@ -65,7 +65,7 @@ public class Claw : MonoBehaviour
         if (other.gameObject.CompareTag("Fish") && !hitFish)
         {
             hitFish = true;
-            GameManager.Instance.OpenQuiz(other.gameObject);
+            FisherManager.Instance.OpenQuiz(other.gameObject);
         }
     }
 }

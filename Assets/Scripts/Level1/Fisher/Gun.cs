@@ -22,13 +22,12 @@ public class Gun : MonoBehaviour
 
     void launchClaw()
     {
-        
+        isShooting = true;
         fisherAnimation.speed = 0;
         Vector2 down = transform.TransformDirection(Vector2.down);
         RaycastHit2D hit = Physics2D.Raycast(transform.position, down, 100);
-        if (hit && !isShooting)
+        if (hit)
         {
-            isShooting = true;
             claw.SetActive(true);
             clawScript.ClawTarget(hit.point);
         }

@@ -20,7 +20,6 @@ public class QuizManager : MonoBehaviour
     private List<int> CorrectAnswerQuestions = new List<int>();
     private List<int> IncorrectAnswerQuestions = new List<int>();
     private int currentQuestions = 0;
-    private int score;
 
     private int timerStateParaHas = 0;
 
@@ -37,16 +36,17 @@ public class QuizManager : MonoBehaviour
     private void Start()
     {
         LoadData();
-
+        if (GameManager.Instance.isQuestionOnly)
+            Display();
         events.CurrentFinalScore = 0;
 
         timerStateParaHas = Animator.StringToHash("TimerState");
 
         var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
         UnityEngine.Random.InitState(seed);
-        
+
     }
-    
+
     public void UpdateAnswers(AnswerData newAnswer)
     {
         if (data.Questions[currentQuestions].AnswerType == AnswerType.Single)
@@ -89,7 +89,7 @@ public class QuizManager : MonoBehaviour
     public void Display()
     {
         EraseAnswers();
-        if(openEmoticon != null)
+        if (openEmoticon != null)
             StopCoroutine(openEmoticon);
         var question = getRandomQuestion();
         if (events.updateQuestionUI != null)
@@ -126,31 +126,40 @@ public class QuizManager : MonoBehaviour
         }
         UpdateScore((isCorrect) ? data.Questions[currentQuestions].AddScore : -data.Questions[currentQuestions].AddScore);
         openEmoticon = OpenEmoticon(isCorrect);
-        
+
         StartCoroutine(openEmoticon);
 
-/*         if (events.displayResolutionScreen != null)
+        /*         if (events.displayResolutionScreen != null)
+                {
+                    events.displayResolutionScreen(data.Questions[currentQuestions].AddScore);
+                } */
+        if (!GameManager.Instance.isQuestionOnly)
         {
-            events.displayResolutionScreen(data.Questions[currentQuestions].AddScore);
-        } */
-        if (CorrectAnswerQuestions.Count >= 3 && FinishedQuestions.Count >= data.Questions.Length)
-        {
-            Debug.Log("Change Scene to Platform Scene");
-            GameManager.Instance.SceneLoad(1);
+            if (CorrectAnswerQuestions.Count >= 3 && FinishedQuestions.Count >= data.Questions.Length)
+            {
+                Debug.Log("Change Scene to Platform Scene");
+                GameManager.Instance.SceneLoad(2);
+            }
         }
+
+    }
+    IEnumerator OpenEmoticon(bool state)
+    {
+
+        emoticon.SetActive(true);
+        yield return new WaitForSeconds(0.9f);
+        emoticon.SetActive(false);
+
+        if (!GameManager.Instance.isQuestionOnly)
+            FisherManager.Instance.CloseQuiz(state);
         else
         {
-            //Display();
-            Debug.Log(IncorrectAnswerQuestions.Count);
+            if (FinishedQuestions.Count == data.Questions.Length)
+                GameManager.Instance.onOption();
+            else
+                Display();
         }
-    }
-    IEnumerator OpenEmoticon(bool state){
-        if(!emoticon.activeInHierarchy)
-            emoticon.SetActive(true);
-        yield return new WaitForSeconds(0.9f);
-        if(emoticon.activeInHierarchy)
-            emoticon.SetActive(false);
-        GameManager.Instance.CloseQuiz(state);
+
     }
 
     private bool CheckedAnswer()
@@ -208,19 +217,19 @@ public class QuizManager : MonoBehaviour
         switch (state)
         {
             case true:
-                Debug.Log("Active ? "+gameObject.activeInHierarchy);
+                Debug.Log(timerStateParaHas);
                 startTimer = StartTimer();
                 StartCoroutine(startTimer);
-                
-                timerAnimator.SetInteger(timerStateParaHas,2);
-                
+
+                timerAnimator.SetInteger("TimerState", 2);
+
                 break;
             case false:
                 if (startTimer != null)
                     StopCoroutine(startTimer);
 
-                timerAnimator.SetInteger(timerStateParaHas,1);
-               
+                timerAnimator.SetInteger("TimerState", 1);
+
                 break;
         }
 
@@ -243,9 +252,9 @@ public class QuizManager : MonoBehaviour
                 timerText.color = timeAlmoustOutColor;
             }
             timerText.text = timeLeft.ToString();
-            //Debug.Log(timeLeft);
+
             yield return new WaitForSeconds(1.0f);
-            
+
         }
         Accept();
     }

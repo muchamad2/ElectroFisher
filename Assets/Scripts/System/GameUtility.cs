@@ -8,6 +8,7 @@ public static class GameUtility
 {
     public static int PlayerScore { get; set; }
     public static int PlayerHealth { get; set; }
+    public static int FinalScore{get;set;}
 
     public static EnvironmentType environmentType { get; set; }
 
