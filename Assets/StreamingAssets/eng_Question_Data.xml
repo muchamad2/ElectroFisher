@@ -147,13 +147,6 @@
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
-    <Question>
-      <Info />
-      <Answers />
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <AnswerType>Single</AnswerType>
-      <AddScore>0</AddScore>
-    </Question>
+
   </Questions>
 </Data>

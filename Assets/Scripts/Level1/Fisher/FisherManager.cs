@@ -16,8 +16,8 @@ public class FisherManager : Singleton<FisherManager> {
     public void OpenQuiz(GameObject other){
         GameManager.Instance.isPaused = true;
         _quiz.SetActive(true);
-        _quizManager.Display();
         fishObject = other;
+         _quizManager.Display();
     }
     public GameObject getChildObject()
     {
@@ -34,7 +34,7 @@ public class FisherManager : Singleton<FisherManager> {
         {
             playerScore += 1;
             GameUtility.PlayerScore = playerScore;
-            GameUtility.FinalScore = playerScore;
+            
         }
         else
         {

@@ -21,7 +21,7 @@ public class QuizManager : MonoBehaviour
     private List<int> IncorrectAnswerQuestions = new List<int>();
     private int currentQuestions = 0;
 
-    private int timerStateParaHas = 0;
+    
 
     private IEnumerator startTimer;
     private IEnumerator openEmoticon;
@@ -36,11 +36,10 @@ public class QuizManager : MonoBehaviour
     private void Start()
     {
         LoadData();
-        if (GameManager.Instance.isQuestionOnly)
-            Display();
+
         events.CurrentFinalScore = 0;
 
-        timerStateParaHas = Animator.StringToHash("TimerState");
+       
 
         var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
         UnityEngine.Random.InitState(seed);
@@ -96,14 +95,7 @@ public class QuizManager : MonoBehaviour
         {
             events.updateQuestionUI(question);
         }
-        else
-        {
-
-        }
-        if (question.UseTimer)
-        {
-            UpdateTime(question.UseTimer);
-        }
+        UpdateTime(question.UseTimer);
     }
 
     public void Accept()
@@ -124,7 +116,7 @@ public class QuizManager : MonoBehaviour
         {
             IncorrectAnswerQuestions.Add(currentQuestions);
         }
-        UpdateScore((isCorrect) ? data.Questions[currentQuestions].AddScore : -data.Questions[currentQuestions].AddScore);
+
         openEmoticon = OpenEmoticon(isCorrect);
 
         StartCoroutine(openEmoticon);
@@ -141,6 +133,10 @@ public class QuizManager : MonoBehaviour
                 GameManager.Instance.SceneLoad(2);
             }
         }
+        else
+        {
+            UpdateScore(isCorrect);
+        }
 
     }
     IEnumerator OpenEmoticon(bool state)
@@ -155,7 +151,7 @@ public class QuizManager : MonoBehaviour
         else
         {
             if (FinishedQuestions.Count == data.Questions.Length)
-                GameManager.Instance.onOption();
+                QAManager.Instance.ShowTotalScore();
             else
                 Display();
         }
@@ -217,7 +213,7 @@ public class QuizManager : MonoBehaviour
         switch (state)
         {
             case true:
-                Debug.Log(timerStateParaHas);
+                
                 startTimer = StartTimer();
                 StartCoroutine(startTimer);
 
@@ -241,30 +237,33 @@ public class QuizManager : MonoBehaviour
         timerText.color = timerDefaultColor;
         while (timeLeft > 0)
         {
-            timeLeft--;
-
-            if (timeLeft < totalTime / 2 && timeLeft > totalTime / 4)
+            if (!GameManager.Instance.isPaused)
             {
-                timerText.color = timeHalfOutColor;
-            }
-            if (timeLeft < totalTime / 4)
-            {
-                timerText.color = timeAlmoustOutColor;
-            }
-            timerText.text = timeLeft.ToString();
+                timeLeft--;
 
+                if (timeLeft < totalTime / 2 && timeLeft > totalTime / 4)
+                {
+                    timerText.color = timeHalfOutColor;
+                }
+                if (timeLeft < totalTime / 4)
+                {
+                    timerText.color = timeAlmoustOutColor;
+                }
+                timerText.text = timeLeft.ToString();
+
+            }
             yield return new WaitForSeconds(1.0f);
 
         }
         Accept();
     }
-    private void UpdateScore(int add)
+    private void UpdateScore(bool state)
     {
-        events.CurrentFinalScore += add;
+
 
         if (events.scoreUpdated != null)
         {
-            events.scoreUpdated();
+            events.scoreUpdated(state);
         }
     }
 }

@@ -57,6 +57,8 @@
      <Compile Include="Assets\Scripts\Level2\DragHandler.cs" />
      <Compile Include="Assets\Scripts\Level2\Inventory.cs" />
      <Compile Include="Assets\Scripts\Level2\Slot.cs" />
+     <Compile Include="Assets\Scripts\Level2\TrialManager.cs" />
+     <Compile Include="Assets\Scripts\Level3\QAManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\AnswerData.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizUIManager.cs" />
@@ -67,6 +69,7 @@
      <Compile Include="Assets\Scripts\System\MenuManager.cs" />
      <Compile Include="Assets\Scripts\System\Singleton.cs" />
      <Compile Include="Assets\Scripts\System\UIManager.cs" />
+     <None Include="Assets\StreamingAssets\id_Question_Data.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -75,8 +78,7 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\Resources\eng_Question_Data.xml" />
-     <None Include="Assets\Resources\id_Question_Data.xml" />
+     <None Include="Assets\StreamingAssets\eng_Question_Data.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
@@ -308,6 +310,12 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N">
+ <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Assets/I18N.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.West">
+ <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Assets/I18N.West.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

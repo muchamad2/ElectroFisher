@@ -291,6 +291,12 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="I18N">
+ <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Assets/I18N.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.West">
+ <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Assets/I18N.West.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>E:/ProjectnonAcademic/Project/Unity/ElectroFisher/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>

@@ -11,7 +11,7 @@ public class GameEvents : ScriptableObject
     public delegate void DisplayResolutionScreenCallback(int score);
     public DisplayResolutionScreenCallback displayResolutionScreen;
 
-    public delegate void ScoreUpdatedCallback();
+    public delegate void ScoreUpdatedCallback(bool state);
     public ScoreUpdatedCallback scoreUpdated;
 
     public int CurrentFinalScore;

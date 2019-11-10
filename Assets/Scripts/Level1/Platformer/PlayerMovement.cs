@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Crest"))
         {
-            PlatformManager.Instance.OpenCrest(0);
+            PlatformManager.Instance.OpenCrest(1);
         }
     }
 }

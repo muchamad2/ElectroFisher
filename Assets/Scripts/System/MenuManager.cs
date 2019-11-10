@@ -8,15 +8,23 @@ public class MenuManager : MonoBehaviour
     public GameObject InitiateContent;
     public GameObject loginContent;
     public GameObject mainContent;
-
+    private void Awake()
+    {
+        if (!InitiateContent.activeInHierarchy)
+            InitiateContent.SetActive(true);
+        if (loginContent.activeInHierarchy)
+            loginContent.SetActive(false);
+        if (mainContent.activeInHierarchy)
+            mainContent.SetActive(false);
+    }
     private void Start()
     {
-        if(!InitiateContent.activeInHierarchy)
-            InitiateContent.SetActive(true);
-        if(loginContent.activeInHierarchy)
+        if (GameUtility.isPlaying)
+        {
+            InitiateContent.SetActive(false);
             loginContent.SetActive(false);
-        if(mainContent.activeInHierarchy)
-            mainContent.SetActive(false);
+            mainContent.SetActive(true);
+        }
     }
     public void ChangeLanguage(string lang)
     {
@@ -35,8 +43,10 @@ public class MenuManager : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
+        GameUtility.isPlaying = true;
     }
-    public void Quit(){
+    public void Quit()
+    {
         Application.Quit();
     }
     public void OpenMateri()

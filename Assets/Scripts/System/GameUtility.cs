@@ -9,6 +9,7 @@ public static class GameUtility
     public static int PlayerScore { get; set; }
     public static int PlayerHealth { get; set; }
     public static int FinalScore{get;set;}
+    public static bool isPlaying = false;
 
     public static EnvironmentType environmentType { get; set; }
 
@@ -18,7 +19,7 @@ public static class GameUtility
     {
         get
         {
-            return Application.dataPath + "/Resources/" + ((LangType == Language.Indo) ? "id_" : "eng_") + xmlFileName;
+            return Application.dataPath + "/StreamingAssets/" + ((LangType == Language.Indo) ? "id_" : "eng_") + xmlFileName;
         }
     }
 }
