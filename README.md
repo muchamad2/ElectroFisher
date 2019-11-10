@@ -33,10 +33,10 @@ pada level 3 pemain akan menjawab soal - soal yang ada, jika benar akan mendapat
 
 ### coming soon
 
-1. Aturan Permainan
-2. Materi
-3. Tujuan pembelajaran
-4. Memperlihatkan score segaligus nama pemain dan fakultas.
-5. Monolog Permainan.
-6. Perbaikan Asset.
-7. Desain Platform untuk level 1 menghindari obstacle
+- Aturan Permainan
+- Materi
+- Tujuan pembelajaran
+- Memperlihatkan score segaligus nama pemain dan fakultas.
+- Monolog Permainan.
+- Perbaikan Asset.
+- Desain Platform untuk level 1 menghindari obstacle
