@@ -12,11 +12,13 @@ public class Answer{
 [System.Serializable]
 public class Question
 {
-    
+    [TextArea]
     public string Info = string.Empty;
     public Answer[] Answers = null;
     public bool UseTimer = false;
     public int Timer = 0;
+    [TextArea]
+    public string Explanation = string.Empty;
     public AnswerType AnswerType = AnswerType.Single;
     public  int AddScore = 1;
     public List<int> GetCorrectListAnswers(){

@@ -7,10 +7,13 @@ using TMPro;
 public class QuizManager : MonoBehaviour
 {
     private Data data = new Data();
+    [Header("References")]
     [SerializeField] Animator timerAnimator = null;
     [SerializeField] TextMeshProUGUI timerText = null;
     [SerializeField] Color timeHalfOutColor = Color.yellow;
     [SerializeField] Color timeAlmoustOutColor = Color.red;
+
+    public string Filename{set;get;}
     private Color timerDefaultColor = Color.white;
 
     [SerializeField] GameEvents events = null;
@@ -21,7 +24,7 @@ public class QuizManager : MonoBehaviour
     private List<int> IncorrectAnswerQuestions = new List<int>();
     private int currentQuestions = 0;
 
-    
+
 
     private IEnumerator startTimer;
     private IEnumerator openEmoticon;
@@ -39,7 +42,7 @@ public class QuizManager : MonoBehaviour
 
         events.CurrentFinalScore = 0;
 
-       
+
 
         var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
         UnityEngine.Random.InitState(seed);
@@ -137,7 +140,7 @@ public class QuizManager : MonoBehaviour
         {
             UpdateScore(isCorrect);
         }
-
+        events.updatedAnswer(isCorrect);
     }
     IEnumerator OpenEmoticon(bool state)
     {
@@ -180,13 +183,17 @@ public class QuizManager : MonoBehaviour
 
     Question getRandomQuestion()
     {
-        var randomIndex = getRandomQuestionIndex();
-        currentQuestions = randomIndex;
-        return data.Questions[currentQuestions];
+        if (data.Questions.Length > 1)
+        {
+            var randomIndex = getRandomQuestionIndex();
+            currentQuestions = randomIndex;
+            return data.Questions[currentQuestions];
+        }else
+            return data.Questions[0];
     }
     int getRandomQuestionIndex()
     {
-        var random = 0;
+        int random = 0;
         if (FinishedQuestions.Count < data.Questions.Length)
         {
             do
@@ -205,7 +212,7 @@ public class QuizManager : MonoBehaviour
     }
     void LoadData()
     {
-        data = Data.Fetch();
+        data = Data.Fetch(Filename);
     }
 
     public void UpdateTime(bool state)
@@ -213,7 +220,7 @@ public class QuizManager : MonoBehaviour
         switch (state)
         {
             case true:
-                
+
                 startTimer = StartTimer();
                 StartCoroutine(startTimer);
 
@@ -259,8 +266,6 @@ public class QuizManager : MonoBehaviour
     }
     private void UpdateScore(bool state)
     {
-
-
         if (events.scoreUpdated != null)
         {
             events.scoreUpdated(state);

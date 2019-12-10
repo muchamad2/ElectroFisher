@@ -7,14 +7,15 @@ public class Data_Creator : EditorWindow
     private Vector2 scrollPosition = Vector2.zero;
     SerializedObject serializedObject = null;
     SerializedProperty questionProp = null;
+    SerializedProperty questionDataProp = null;
+    
 
 
     private void OnEnable()
     {
         serializedObject = new SerializedObject(this);
         data.Questions = new Question[0];
-        //questionProp = serializedObject.FindProperty("data").FindPropertyRelative("Questions");   
-        questionProp = serializedObject.FindProperty("data");
+        questionDataProp = serializedObject.FindProperty("data");
 
     }
     [MenuItem("ElectroFisher/Data_Creator")]
@@ -60,7 +61,7 @@ public class Data_Creator : EditorWindow
         var arraySize = data.Questions.Length;
 
         Rect viewRect = new Rect(bodyRect.x + 10, bodyRect.y + 10, bodyRect.width - 20,
-        EditorGUI.GetPropertyHeight(questionProp));
+        EditorGUI.GetPropertyHeight(questionDataProp));
 
         Rect scrollPostRect = new Rect(viewRect)
         {
@@ -72,7 +73,7 @@ public class Data_Creator : EditorWindow
         var drawSlider = viewRect.height > scrollPostRect.height;
 
         Rect propertyRect = new Rect(bodyRect.x + 10, bodyRect.y + 10, bodyRect.width - (drawSlider ? 40 : 20), 17);
-        EditorGUI.PropertyField(propertyRect, questionProp, true);
+        EditorGUI.PropertyField(propertyRect, questionDataProp, true);
 
         serializedObject.ApplyModifiedProperties();
 
@@ -87,12 +88,12 @@ public class Data_Creator : EditorWindow
         bool pressed = GUI.Button(createButtonRect, "Create",EditorStyles.miniButtonRight);
         if(pressed){
             GameUtility.LangType = data.lang;
-            Data.Write(data);
+            Data.Write(data,data.filename);
         }
         createButtonRect.x -= createButtonRect.width;
         pressed = GUI.Button(createButtonRect,"Fetch",EditorStyles.miniButtonLeft);
         if(pressed){
-            var d = Data.Fetch(out bool result);
+            var d = Data.Fetch(out bool result,data.filename);
             if(result){
                 data = d;
             }

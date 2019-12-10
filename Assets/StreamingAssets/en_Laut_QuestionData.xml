@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lang>Eng</lang>
+  <filename>_Laut_QuestionData.xml</filename>
+  <Questions>
+    <Question>
+      <Info>From the experiment results are carried out, known a compound has the following properties:
+(1)Dissolved in water
+(2)In melt can conduct electricity
+(3)Can completely ionize in water
+So the conclusion that can be drawn is ….</Info>
+      <Answers>
+        <Answer>
+          <info>A.That compound has polar covalent bond </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.That compound has nonpolar covalent bond </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.That compound has  hydrogen bond </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.That compound has ionic bond </info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.That compound has metal bond </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>The true statement below is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.In solution, polar covalent compound such as HCl can conduct electricity </info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.In melt, polar covalent compound such as NaCl can conduct electricity </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.In melt, ionic compound such as HCl can’t conduct electricity </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.The electrical conductivity of electrolyte solution does not depend on solution type </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Nonpolar covalent compound such as CH&lt;sub&gt;3&lt;/sub&gt;COOH can form electrolyte solution </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>3 moles of substance XY are dissolved in water and dissociate into ions. If in the solution there is still 1 mole of XY molecule, the degree of ionization of XY is ...
+</Info>
+      <Answers>
+        <Answer>
+          <info>A.1</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.0,833 </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.0,667</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.0,500 </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.0,333 </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>20 grams of a substance with molecular weight of 40 grams/mole is dissolved in water. After equilibrium, the substance remains 0.25 mole. This substance is ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Nonelectrolyte </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Weak electrolyte  </info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Strong electrolyte </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Covalent electrolyte </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Ionic electrolyte </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Based on the following problem formulation: How does the solution type affect electrical conductivity?
+</Info>
+      <Answers>
+        <Answer>
+          <info>A.Manipulated variable : electrical conductivity </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Response variable : concentration of solution </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Control variable :  solution type and electrical conductivity testing tool </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Manipulated variable : solution type </info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Response variable: electrical conductivity testing tool </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+  </Questions>
+</Data>

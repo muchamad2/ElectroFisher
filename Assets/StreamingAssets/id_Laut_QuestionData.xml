@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lang>Indo</lang>
+  <filename>_Laut_QuestionData.xml</filename>
+  <Questions>
+    <Question>
+      <Info>Dari hasil percobaan yang dilakukan diketahui suatu senyawa mempunyai sifat :
+(1) Larut dalam air
+(2) Lelehannya dapat menghantarkan listrik
+(3) Terionisasi sempurna dalam air
+Kesimpulan yang dapat diambil adalah…
+</Info>
+      <Answers>
+        <Answer>
+          <info>Senyawa tersebut mempunyai ikatan kovalen polar</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Senyawa tersebut mempunyai ikatan kovalen nonpolar</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Senyawa tersebut mempunyai ikatan hidrogen</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Senyawa tersebut mempunyai ikatan ion</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Senyawa tersebut mempunyai ikatan logam</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Pernyataan di bawah ini yang benar adalah…</Info>
+      <Answers>
+        <Answer>
+          <info>A.Larutan senyawa kovalen polar seperti HCl dapat menghantarkan arus listrik</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Lelehan senyawa kovalen polar seperti NaCl dapat menghantarkan arus listrik</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Lelehan senyawa ionik seperti HCl tidak dapat menghantarkan arus listrik</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Daya hantar listrik larutan elektrolit tidak tergantung pada jenis larutan</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Senyawa kovalen nonpolar seperti CH&lt;sub&gt;3&lt;/sub&gt;COOH dapat membentuk larutan elektrolit </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>3 mol zat XY dilarutkan dalam air dan terurai menjadi ion-ionnya. Jika di dalam larutan masih terdapat 1 mol molekul XY, derajat ionisasi zat XY adalah…
+</Info>
+      <Answers>
+        <Answer>
+          <info>A.1</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.0,833 </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.0,667</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.0,500 </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.0,333 </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>20 gram zat dengan berat molekul 40 gram/mol dilarutkan dalam air. Setelah kesetimbangan zat tersebut tinggal 0,25 mol. Zat tersebut merupakan…
+</Info>
+      <Answers>
+        <Answer>
+          <info>A.Nonelektrolit </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Elektrolit lemah </info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Elektrolit kuat </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Elektrolit kovalen </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Elektrolit ionik </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Berdasarkan rumusan masalah berikut ini: Bagaimana pengaruh jenis larutan terhadap daya hantar listriknya?
+Variabel percobaan yang sesuai yaitu…</Info>
+      <Answers>
+        <Answer>
+          <info>A.Variabel manipulasi : daya hantar listik </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Variabel respon : konsentrasi larutan </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Variabel kontrol : jenis larutan dan alat uji daya hantar listrik </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Variabel manipulasi : jenis larutan  </info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Variabel respon : alat uji daya hantar listrik</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Explanation />
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+  </Questions>
+</Data>

@@ -32,7 +32,7 @@ public class Slot : MonoBehaviour, IDropHandler
         {
             DragHandler.itemBeginDragged.transform.SetParent(transform);
             ExecuteEvents.ExecuteHierarchy<IHasChanged>(gameObject, null, (x, y) => x.HasChanged());
-            Debug.Log(item.name);
+            
         }
     }
 }

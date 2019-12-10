@@ -3,6 +3,7 @@ using UnityEngine;
 public class FisherManager : Singleton<FisherManager> {
     private int playerHealth;
     private int playerScore;
+    
     [SerializeField] private GameObject _quiz;
     [SerializeField] QuizManager _quizManager;
     private GameObject fishObject;

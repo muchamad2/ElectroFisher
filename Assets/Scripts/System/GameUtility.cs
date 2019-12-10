@@ -6,6 +6,8 @@ public enum EnvironmentType { Forest, Sea }
 public enum Language { Indo, Eng }
 public static class GameUtility
 {
+    public static string PlayerName;
+    public static string PlayerGrade;
     public static int PlayerScore { get; set; }
     public static int PlayerHealth { get; set; }
     public static int FinalScore{get;set;}
@@ -14,12 +16,14 @@ public static class GameUtility
     public static EnvironmentType environmentType { get; set; }
 
     public static Language LangType { get; set; }
-    public const string xmlFileName = "Question_Data.xml";
+    public const string xmlind= "id";
+    public const string xmleng = "en";
+    public static string xmlFileName {get; set;}
     public static string xmlFilePath
     {
         get
         {
-            return Application.dataPath + "/StreamingAssets/" + ((LangType == Language.Indo) ? "id_" : "eng_") + xmlFileName;
+            return Application.dataPath + "/StreamingAssets/"+ ((LangType == Language.Indo) ? xmlind : xmleng) + xmlFileName;
         }
     }
 }
@@ -43,24 +47,27 @@ public static class GameUtility
 public class Data
 {
 
-    public Language lang = Language.Indo;
+    public Language lang;
+    public string filename;
     public Question[] Questions = new Question[0];
     public Data() { }
 
-    public static void Write(Data data)
+    public static void Write(Data data, string filename)
     {
+        GameUtility.xmlFileName = filename;
         XmlSerializer serializer = new XmlSerializer(typeof(Data));
         using (Stream stream = new FileStream(GameUtility.xmlFilePath, FileMode.Create))
         {
             serializer.Serialize(stream, data);
         }
     }
-    public static Data Fetch()
+    public static Data Fetch(string filename)
     {
-        return Fetch(out bool result);
+        return Fetch(out bool result,filename);
     }
-    public static Data Fetch(out bool result)
+    public static Data Fetch(out bool result,string filename)
     {
+        GameUtility.xmlFileName = filename;
         if (!File.Exists(GameUtility.xmlFilePath)) { result = false; return new Data(); }
         XmlSerializer deserializer = new XmlSerializer(typeof(Data));
         using (Stream stream = new FileStream(GameUtility.xmlFilePath, FileMode.Open))

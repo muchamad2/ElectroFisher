@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\Scripts\Level1\Fisher\Claw.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\Fish.cs" />
+     <Compile Include="Assets\Scripts\Level1\Fisher\FisherAnimEvent.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\FisherManager.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\Gun.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\SpawnFish.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\Scripts\Quiz\QuizUIManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\ScriptableObject\GameEvents.cs" />
      <Compile Include="Assets\Scripts\Quiz\ScriptableObject\Question.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObject\TextScript.cs" />
      <Compile Include="Assets\Scripts\System\GameManager.cs" />
      <Compile Include="Assets\Scripts\System\GameUtility.cs" />
      <Compile Include="Assets\Scripts\System\MenuManager.cs" />
@@ -74,17 +76,21 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\StreamingAssets\en_Sungai_QuestionData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\StreamingAssets\id_Laut_QuestionData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\StreamingAssets\eng_Question_Data.xml" />
+     <None Include="Assets\StreamingAssets\en_Question_Data.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\StreamingAssets\en_Laut_QuestionData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\StreamingAssets\id_Sungai_QuestionData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />

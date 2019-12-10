@@ -8,8 +8,8 @@ public class GameEvents : ScriptableObject
     public delegate void UpdateQuestionAnswerCallback(AnswerData pickedAnswer);
     public UpdateQuestionAnswerCallback updateQuestionAnswer;
 
-    public delegate void DisplayResolutionScreenCallback(int score);
-    public DisplayResolutionScreenCallback displayResolutionScreen;
+    public delegate void UpdatedAnswerCallback(bool state);
+    public UpdatedAnswerCallback updatedAnswer;
 
     public delegate void ScoreUpdatedCallback(bool state);
     public ScoreUpdatedCallback scoreUpdated;

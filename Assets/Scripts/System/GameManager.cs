@@ -7,13 +7,14 @@ public class GameManager : Singleton<GameManager>
     [Header("Option Elements")]
     [SerializeField] int playerHealth = 6;
     [SerializeField] int playerScore = 0;
+    [SerializeField] QuizManager quiz = null;
     [Space]
     public bool isQuestionOnly = false;
     [Space]
     [Header("Reference")]
     [SerializeField] Color _riverColor = Color.blue;
     [SerializeField] Color _seaColor = Color.yellow;
-    [SerializeField] SpriteRenderer srenderer = null;
+    [SerializeField] SpriteRenderer spriteRenderer = null;
     public GameObject optionPanel;
     
     public bool isPaused { get; set; }
@@ -30,12 +31,12 @@ public class GameManager : Singleton<GameManager>
         isPaused = false;
 
         UIManager.Instance.UpdateUI(playerHealth, playerScore);
-        if (srenderer != null)
+        if (quiz != null)
         {
             if (GameUtility.environmentType == EnvironmentType.Forest)
-                srenderer.color = _riverColor;
+                quiz.Filename = "_Sungai_QuestionData.xml";
             else
-                srenderer.color = _seaColor;
+                quiz.Filename = "_Laut_QuestionData.xml";
         }
 
     }
