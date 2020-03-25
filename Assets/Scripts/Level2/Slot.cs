@@ -21,8 +21,10 @@ public class Slot : MonoBehaviour, IDropHandler
         }
     }
     public void ImageActive(bool state){
-        if(image != null)
+        if(image != null){
             image.SetActive(state);
+            //gameObject.GetComponent<UnityEngine.UI.Image>().raycastTarget = false;
+        }
     }
     public void OnDrop(PointerEventData eventData)
     {

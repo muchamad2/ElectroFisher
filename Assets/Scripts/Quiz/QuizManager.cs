@@ -12,12 +12,15 @@ public class QuizManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText = null;
     [SerializeField] Color timeHalfOutColor = Color.yellow;
     [SerializeField] Color timeAlmoustOutColor = Color.red;
+    [SerializeField] private string filename;
 
-    public string Filename{set;get;}
+    public string Filename { get => filename; set => filename = value; }
+
     private Color timerDefaultColor = Color.white;
 
     [SerializeField] GameEvents events = null;
     [SerializeField] GameObject emoticon = null;
+    [SerializeField] GameObject explanation = null;
     private List<AnswerData> PickedAnswers = new List<AnswerData>();
     private List<int> FinishedQuestions = new List<int>();
     private List<int> CorrectAnswerQuestions = new List<int>();
@@ -148,6 +151,9 @@ public class QuizManager : MonoBehaviour
         emoticon.SetActive(true);
         yield return new WaitForSeconds(0.9f);
         emoticon.SetActive(false);
+        
+        if(explanation != null)
+            explanation.SetActive(state);
 
         if (!GameManager.Instance.isQuestionOnly)
             FisherManager.Instance.CloseQuiz(state);
@@ -188,7 +194,8 @@ public class QuizManager : MonoBehaviour
             var randomIndex = getRandomQuestionIndex();
             currentQuestions = randomIndex;
             return data.Questions[currentQuestions];
-        }else
+        }
+        else
             return data.Questions[0];
     }
     int getRandomQuestionIndex()
@@ -244,25 +251,25 @@ public class QuizManager : MonoBehaviour
         timerText.color = timerDefaultColor;
         while (timeLeft > 0)
         {
-            if (!GameManager.Instance.isPaused)
+
+            timeLeft--;
+
+            if (timeLeft < totalTime / 2 && timeLeft > totalTime / 4)
             {
-                timeLeft--;
-
-                if (timeLeft < totalTime / 2 && timeLeft > totalTime / 4)
-                {
-                    timerText.color = timeHalfOutColor;
-                }
-                if (timeLeft < totalTime / 4)
-                {
-                    timerText.color = timeAlmoustOutColor;
-                }
-                timerText.text = timeLeft.ToString();
-
+                timerText.color = timeHalfOutColor;
             }
+            if (timeLeft < totalTime / 4)
+            {
+                timerText.color = timeAlmoustOutColor;
+            }
+            timerText.text = timeLeft.ToString();
             yield return new WaitForSeconds(1.0f);
 
         }
         Accept();
+    }
+    public void CloseExplanationArea(){
+        explanation.SetActive(false);
     }
     private void UpdateScore(bool state)
     {

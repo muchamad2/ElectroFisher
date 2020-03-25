@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <lang>Indo</lang>
-  <filename>id_Sungai_QuestionData.xml</filename>
+  <filename>_Sungai_QuestionData.xml</filename>
   <Questions>
     <Question>
       <Info>Bagaimana rumusan masalah berdasarkan fenomena tersebut?</Info>
@@ -28,7 +28,11 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Fenomena tersebut terjadi di laut dan sungai dimana dalam airnya mengandung zat terlarut yang berbeda. Zat terlarut yang berbeda akan menyebabkan jenis larutan yang berbeda sehingga akan mempengaruhi daya hantar listrik dalam larutannya. Rumusan yang cocok yaitu:
+
+Bagaimana pengaruh jenis larutan terhadap kekuatan daya hantar listriknya?
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -57,7 +61,12 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Rumusan masalah dari fenomena tersebut : Bagaimana pengaruh jenis larutan terhadap kekuatan daya hantar listriknya?
+Hipotesis ilmiah merupakan jawaban sementara terhadap masalah yang akan diteliti sehingga hipotesis yang sesuai yaitu:
+
+Jenis larutan mempengaruhi daya hantar listrik larutannya.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -86,7 +95,9 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Elektrolit adalah zat-zat yang dilarutkan dengan air akan terurai menjadi ion-ion yang bergerak bebas yaitu ion negatif dan ion positif sehingga larutannya dapat menghantarkan listrik.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -115,7 +126,9 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Larutan A terjadi ionisasi sempurna karena sebagian besar atau seluruh molekul zat bereaksi dengan air sehingga terbentuk ion-ion yang bergerak bebas dalam larutan yang menyebabkan dapat menghantarkan listrik ditinjau dari nyala terang lampu dan bergeraknya jarum penunjuk pada avometer sedangkan larutan B tidak terionisasi karena molekul zat tidak terurai menjadi ion-ion (tetap menjadi molekul) ketika dilarutkan dalam air.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -144,7 +157,9 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Jika dalam wujud zat padat maka tidak dapat menghantarkan listrik karena ion-ion zat terikat sangat rapat sehingga tidak dapat mengion, sedangkan dalam wujud zat cair dapat menghantarkan listrik karena ion-ion zat sangat renggang sehingga ion-ion tersebut bebas bergerak untuk menghantarkan listrik.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

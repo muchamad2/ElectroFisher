@@ -17,11 +17,15 @@ public class Inventory : MonoBehaviour, IHasChanged
 
             Slot slot = slotItem.GetComponent<Slot>();
             GameObject tool = slot.item;
+            //Debug.Log(tool.name);
             if (tool)
             {
                 DragHandler handler = tool.GetComponent<DragHandler>();
-                if (slot.getId == handler.getId)
+                if (slot.getId == handler.getId){
                     handler.isCorrect = true;
+                    tool.GetComponent<UnityEngine.UI.Image>().raycastTarget = false;
+                    slot.GetComponent<UnityEngine.UI.Image>().raycastTarget = false;
+                }
                 else
                     handler.isCorrect = false;
                 tools.Add(handler);

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlatformManager : Singleton<PlatformManager> {
     private int playerHealth;
@@ -32,5 +33,8 @@ public class PlatformManager : Singleton<PlatformManager> {
         playerHealth -= 1;
         UIManager.Instance.UpdateUI(playerHealth, playerScore);
         GameUtility.PlayerHealth = playerHealth;
+        if(playerHealth == 0){
+            GameManager.Instance.SceneLoad(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }

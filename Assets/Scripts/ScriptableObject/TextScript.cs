@@ -32,12 +32,16 @@ public class TextScript : ScriptableObject
     public InText TitleBtnLogin { get { return _titleBtnLogin; } }
     [Space]
     [Header("In Game Text")]
-    [SerializeField]  InText _titleBtnHome;
-    public InText BtnHome{get{return _titleBtnHome;}}
+    [SerializeField] InText _titleBtnHome;
+    public InText BtnHome { get { return _titleBtnHome; } }
     [SerializeField] InText _labelQuitText;
-    public InText LabelQuitText{get{return _labelQuitText;}}
+    public InText LabelQuitText { get { return _labelQuitText; } }
     [SerializeField] InText _titleYes;
-    public InText Yes{get{return _titleYes;}}
+    public InText Yes { get { return _titleYes; } }
     [SerializeField] InText _titleNo;
-    public InText No{get{return _titleNo;}}
+    public InText No { get { return _titleNo; } }
+    [SerializeField] InText _answerText;
+    public InText AnswerText { get { return _answerText; } }
+    [SerializeField] InText _closeText;
+    public InText CloseText { get { return _closeText; } }
 }

@@ -27,10 +27,10 @@ public class TrialManager : Singleton<TrialManager>
         } */
     public void CheckTools(List<DragHandler> otherTools)
     {
-        if (tools.Count == otherTools.Count)
-            checkComparison.SetActive(true);
-        else
-            checkComparison.SetActive(false);
+        // if (tools.Count == otherTools.Count)
+        //     checkComparison.SetActive(true);
+        // else
+        //     checkComparison.SetActive(false);
 
         correctTools = otherTools;
 

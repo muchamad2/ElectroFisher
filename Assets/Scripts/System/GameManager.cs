@@ -16,6 +16,7 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] Color _seaColor = Color.yellow;
     [SerializeField] SpriteRenderer spriteRenderer = null;
     public GameObject optionPanel;
+    public GameObject explanationArea = null;
     
     public bool isPaused { get; set; }
     
@@ -46,9 +47,12 @@ public class GameManager : Singleton<GameManager>
         {
             onOption();
         }
+        
     }
 
+    public void CloseExplanationArea(){
 
+    }
 
     public void onOption()
     {
@@ -63,20 +67,25 @@ public class GameManager : Singleton<GameManager>
             isPaused = true;
         }
     }
+    public void SceneReload(){
+        SceneTransasition.Instance.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
     public void SceneLoad(int index)
     {
-        SceneManager.LoadScene(index);
+        SceneTransasition.Instance.LoadScene(index);
     }
     public void BackToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneTransasition.Instance.LoadScene("MainMenu");
     }
     public void SceneLoadString(string sceneName)
     {
         GameUtility.FinalScore += GameUtility.PlayerScore;
         GameUtility.PlayerHealth = 0;
         GameUtility.PlayerScore = 0;
-        SceneManager.LoadScene(sceneName);
+        SceneTransasition.Instance.LoadScene(sceneName);
+
     }
     public void Quit()
     {

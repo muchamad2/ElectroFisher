@@ -32,7 +32,7 @@ So the conclusion that can be drawn is ….</Info>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
       <Explanation />
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
@@ -62,7 +62,7 @@ So the conclusion that can be drawn is ….</Info>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
       <Explanation />
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
@@ -93,8 +93,11 @@ So the conclusion that can be drawn is ….</Info>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Explanation />
+      <Timer>20</Timer>
+<Explanation>α = the number of ionized molecules (mole) / the number of molecules dissolved in water
+α = 2 moles / 3 moles
+α = 0,667
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -123,8 +126,10 @@ So the conclusion that can be drawn is ….</Info>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Explanation />
+      <Timer>20</Timer>
+<Explanation>The number of molecules dissolved in water = 20 gram / 40 gram.mol-1 = 0.5 mole
+α = 0.25 mole / 0.5 mole = 0.5 (weak electrolyte)
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -154,8 +159,10 @@ So the conclusion that can be drawn is ….</Info>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Explanation />
+      <Timer>20</Timer>
+      <Explanation>-&gt;Manipulated variable: solution type 
+-&gt;Control variable : electrical conductivity testing tool and concentration of solution
+-&gt;Response variable: electrical conductivity (light of lamp, bubble gas, movement of pointer in avometer)</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

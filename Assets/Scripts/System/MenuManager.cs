@@ -27,7 +27,10 @@ public struct MenuUIElement
 }
 public class MenuManager : MonoBehaviour
 {
-
+    private static MenuManager _instance;
+    public static MenuManager Instance{
+        get{return _instance;}
+    }
     [SerializeField] TMP_InputField inputName;
     [SerializeField] TMP_InputField inputGrade;
     [Header("GameObject References")]
@@ -45,6 +48,11 @@ public class MenuManager : MonoBehaviour
     public MenuUIElement element;
     private void Awake()
     {
+        if(_instance != null && _instance !=this)
+            Destroy(this.gameObject);
+        else
+            _instance = this;
+            
         if (!InitiateContent.activeInHierarchy)
             InitiateContent.SetActive(true);
         if (loginContent.activeInHierarchy)
@@ -111,7 +119,7 @@ public class MenuManager : MonoBehaviour
     public void Play()
     {
         Debug.Log("Player Name = " + GameUtility.PlayerName + " Player Grade : " + GameUtility.PlayerGrade);
-        SceneManager.LoadScene(1);
+        SceneTransasition.Instance.LoadScene(1);
         GameUtility.isPlaying = true;
     }
     public void Quit()

@@ -28,7 +28,12 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>This phenomenon occurs in sea and river where the water contains different solutes. Different solutes will cause different types of solution that will affect the electrical conductivity in solution. The suitable problem formulation is:
+
+How is the effect of solution type on the strength of electrical conductivity?
+
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -57,7 +62,14 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Problem formulation of the phenomenon: 
+How is the effect of solution type on the strength of electrical conductivity?
+Scientific hypothesis is a temporary answer to the problem to be studied so that the appropriate hypothesis is:
+
+The type of solution affects the strength of solution electrical conductivity.
+
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -86,7 +98,9 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Electrolytes are substances dissolved in water that break down into free moving ions, namely negative ions and positive ions so that the solution can conduct electricity.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -115,7 +129,9 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>Solution A occurs complete ionization because most or all of the molecules in substance react with water so that the ions move freely in solution that causes it can conduct electricity, can be seen in the light of lamp and the pointer on avometer. While the solution B is not ionized because the substance molecule is not break down into ions (remain molecules) when dissolved in water.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -144,7 +160,9 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
+      <Explanation>If the form of substance is solid, it can’t conduct electricity because the ions of substance are bonded so tight so that it can’t ionize, whereas in the form of liquid it can conduct electricity because the ions of substance are very tenuous so that the ions are free to move to conduct electricity.
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

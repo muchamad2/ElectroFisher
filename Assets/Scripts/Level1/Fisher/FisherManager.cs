@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class FisherManager : Singleton<FisherManager> {
     private int playerHealth;
     private int playerScore;
@@ -43,6 +42,9 @@ public class FisherManager : Singleton<FisherManager> {
             GameUtility.PlayerHealth = playerHealth;
         }
         UIManager.Instance.UpdateUI(playerHealth, playerScore);
+        if(playerHealth == 0){
+            GameManager.Instance.SceneReload();
+        }
     }
     
 }

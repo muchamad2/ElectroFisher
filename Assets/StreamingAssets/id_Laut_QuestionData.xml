@@ -33,7 +33,7 @@ Kesimpulan yang dapat diambil adalah…
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
       <Explanation />
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
@@ -63,7 +63,7 @@ Kesimpulan yang dapat diambil adalah…
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>20</Timer>
       <Explanation />
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
@@ -94,8 +94,11 @@ Kesimpulan yang dapat diambil adalah…
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Explanation />
+      <Timer>20</Timer>
+      <Explanation>α = mol yang terionisasi / mol zat yang dolarutkan
+α = 2 mol / 3 mol
+α = 0,667
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -125,8 +128,10 @@ Kesimpulan yang dapat diambil adalah…
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Explanation />
+      <Timer>20</Timer>
+      <Explanation>Mol zat yang dilarutkan = 20 gram / 40gram.mol-1 = 0,5 gram
+α = 0,25 mol / 0,5 mol = 0,5 (elektrolit lemah)
+</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -156,8 +161,10 @@ Variabel percobaan yang sesuai yaitu…</Info>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Explanation />
+      <Timer>20</Timer>
+      <Explanation>-&gt;Variabel manipulasi : jenis larutan 
+-&gt;Variabel kontrol : alat uji daya hantar listrik dan konsentrasi larutan
+-&gt;Variabel respon : daya hantar listrik (nyala lampu, gelembung gas, gerak tidaknya jarum avometer)</Explanation>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

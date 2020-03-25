@@ -20,7 +20,12 @@ public struct QuizUIElements
     public TextMeshProUGUI QuestionInfo { get { return _questionInfoTextObject; } }
     [SerializeField] TextMeshProUGUI _scoreText;
     public TextMeshProUGUI ScoreText { get { return _scoreText; } }
-
+    [SerializeField] TextMeshProUGUI _explanationText;
+    public TextMeshProUGUI ExplanationInfo{get{return _explanationText;}}
+    [SerializeField] TextMeshProUGUI _answerText;
+    public TextMeshProUGUI AnswerInfo{get{return _answerText;}}
+    [SerializeField] TextMeshProUGUI _closeText;
+    public TextMeshProUGUI CloseInfo{get{return _closeText;}}
 }
 public class QuizUIManager : MonoBehaviour
 {
@@ -29,6 +34,11 @@ public class QuizUIManager : MonoBehaviour
     [SerializeField] Image emoticonImage;
     [SerializeField] Sprite emoLose;
     [SerializeField] Sprite emoWin;
+    [Header("Additional References")]
+    [SerializeField] bool isActiveAdditional;
+    [SerializeField] TextScript indoTextScript;
+    [SerializeField] TextScript engTextScript;
+    
     [Header("UI Elements (Prefabs)")]
     [SerializeField] AnswerData answerPrefab;
     [SerializeField] QuizUIElements uIElements;
@@ -48,10 +58,22 @@ public class QuizUIManager : MonoBehaviour
         events.updatedAnswer -= UpdateEmoticonAnswer;
 
     }
-
+    private void Start()
+    {
+        if(isActiveAdditional){
+            if(GameUtility.LangType == Language.Indo){
+                uIElements.AnswerInfo.text = indoTextScript.AnswerText.Info;
+                uIElements.CloseInfo.text = indoTextScript.CloseText.Info;
+            }else{
+                uIElements.AnswerInfo.text = engTextScript.AnswerText.Info;
+                uIElements.CloseInfo.text = engTextScript.CloseText.Info;
+            }
+        }
+    }
     void UpadatedQuestionUI(Question question)
     {
         uIElements.QuestionInfo.text = question.Info;
+        uIElements.ExplanationInfo.text = question.Explanation;
         //createAnswers;
         CreateAnswers(question);
     }
