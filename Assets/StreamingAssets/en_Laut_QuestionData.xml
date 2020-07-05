@@ -33,7 +33,16 @@ So the conclusion that can be drawn is ….</Info>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation />
+      <Explanation>
+
+
+	&lt;sprite="l1tabel" index=0&gt;
+
+
+
+
+Based on the experiment results are properties of ionic compound.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -49,7 +58,7 @@ So the conclusion that can be drawn is ….</Info>
           <isCorrect>false</isCorrect>
         </Answer>
         <Answer>
-          <info>C.In melt, ionic compound such as HCl can’t conduct electricity </info>
+          <info>C.In melt, ionic compound such as HCl can`t conduct electricity </info>
           <isCorrect>false</isCorrect>
         </Answer>
         <Answer>
@@ -63,7 +72,16 @@ So the conclusion that can be drawn is ….</Info>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation />
+      <Explanation>
+
+
+	&lt;sprite="tblen" index=0&gt;
+
+
+
+
+The example of ionic compound is NaCl. The example of polar covalent compounds are HCl and CH&lt;sub&gt;3&lt;/sub&gt;COOH. So that the statement with correct properties and examples of compound is option A.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -94,10 +112,11 @@ So the conclusion that can be drawn is ….</Info>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-<Explanation>α = the number of ionized molecules (mole) / the number of molecules dissolved in water
+      <Explanation>α = the number of ionized molecules (mole) / the number of molecules dissolved in water
 α = 2 moles / 3 moles
 α = 0,667
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -127,9 +146,10 @@ So the conclusion that can be drawn is ….</Info>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-<Explanation>The number of molecules dissolved in water = 20 gram / 40 gram.mol-1 = 0.5 mole
-α = 0.25 mole / 0.5 mole = 0.5 (weak electrolyte)
+      <Explanation>The number of molecules dissolved in water = 20 gram : 40 gram.mol&lt;sup&gt;-1&lt;/sup&gt; = 0.5 mole
+α = 0.25 mole : 0.5 mole = 0.5 (weak electrolyte)
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -163,6 +183,44 @@ So the conclusion that can be drawn is ….</Info>
       <Explanation>-&gt;Manipulated variable: solution type 
 -&gt;Control variable : electrical conductivity testing tool and concentration of solution
 -&gt;Response variable: electrical conductivity (light of lamp, bubble gas, movement of pointer in avometer)</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Look at the picture below!
+
+
+&lt;sprite="lautintbl" index=0&gt;
+
+
+Based on the picture which includes the properties of strong electrolyte solution is number 1 and 2, so the strong electrolyte solution is a solution that is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A. A small extent of the compounds dissociate to ions when dissolved in water</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.A small extent of the compounds (50-60%) dissociate to ions when dissolved in water</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.A large extent of the compounds (50-60%) dissociate to positive ions and negative ions</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.A large extent of the compounds (70-100%) dissociate to ions when dissolved in water</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.A large extent of the compounds (70-100%) dissociate to molecules when dissolved in water</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Explanation>Strong electrolyte solution is a solution which a large extent or all of the compounds (70-100%) dissociate to ions when dissolved in water. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

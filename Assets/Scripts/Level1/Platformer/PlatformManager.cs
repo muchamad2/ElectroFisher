@@ -1,14 +1,30 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class PlatformManager : Singleton<PlatformManager> {
     private int playerHealth;
     private int playerScore;
+    [SerializeField] Sprite miniLabEng;
+    [SerializeField] Sprite miniLabIna;
     public GameObject popUpMiniLab;
+    [SerializeField] AudioSource bgmAudio;
     private void Start()
     {
         playerHealth = GameUtility.PlayerHealth;
         playerScore = GameUtility.PlayerScore;
+        if(bgmAudio != null) bgmAudio.mute = GameUtility.mute;
+        if(popUpMiniLab != null){
+            switch (GameUtility.LangType)
+            {
+                case Language.Eng:
+                    popUpMiniLab.GetComponentInChildren<Image>().sprite = miniLabEng;
+                break;
+                case Language.Indo:
+                    popUpMiniLab.GetComponentInChildren<Image>().sprite = miniLabIna;
+                break;
+            }
+            popUpMiniLab.SetActive(false);
+        } 
     }
     public void OpenCrest(int index)
     {

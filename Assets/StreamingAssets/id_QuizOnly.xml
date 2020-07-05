@@ -1,0 +1,456 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lang>Indo</lang>
+  <filename>_QuizOnly.xml</filename>
+  <Questions>
+    <Question>
+      <Info>Perhatikan tabel berikut:
+
+
+
+	&lt;sprite="indoTable" index=0&gt;
+
+
+
+
+Berdasarkan hasil percobaan, perubahan indikator yang sesuai untuk mengisi nomor (1),(2), dan (3) pada tabel secara berturut-turut adalah ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Menyala, banyak, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Menyala, sedikit, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Tidak menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Tidak menyala, tidak ada, tidak bergerak</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan yang dilakukan pada minyak goreng, tidak terdapat perubahan indikator nyala lampu, gelembung gas, dan jarum penunjuk avometer pada alat uji daya hantar listrik larutan sehingga jawaban yang tepat adalah lampu tidak menyala, tidak ada gembung gas, dan jarum penunjuk tidak bergerak. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan tabel berikut:
+
+
+
+	&lt;sprite="indoTable" index=1&gt;
+
+
+
+
+Berdasarkan hasil percobaan, perubahan indikator yang sesuai untuk mengisi nomor (4),(5), dan (6) pada tabel secara berturut-turut adalah ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Menyala, banyak, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Menyala, sedikit, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Tidak menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Tidak menyala, tidak ada, tidak bergerak</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan yang dilakukan pada larutan gula, &lt;b&gt;tidak terdapat perubahan&lt;/b&gt; indikator nyala lampu, gelembung gas, dan jarum penunjuk avometer pada alat uji daya hantar listrik larutan sehingga jawaban yang tepat adalah lampu tidak menyala, tidak ada gembung gas, dan jarum penunjuk tidak bergerak. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan tabel berikut:
+
+
+
+	&lt;sprite="indoTable" index=2&gt;
+
+
+
+
+Berdasarkan hasil percobaan, perubahan indikator yang sesuai untuk mengisi nomor (7),(8), dan (9) pada tabel secara berturut-turut adalah ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Menyala, banyak, bergerak</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Menyala, sedikit, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Tidak menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Tidak menyala, tidak ada, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan yang dilakukan pada larutan garam dapur, &lt;b&gt;terdapat perubahan&lt;/b&gt; indikator nyala lampu, gelembung gas, dan jarum penunjuk avometer pada alat uji daya hantar listrik larutan sehingga jawaban yang tepat adalah lampu menyala, banyak gelembung gas, dan jarum penunjuk bergerak.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan tabel berikut:
+
+
+
+	&lt;sprite="indoTable" index=3&gt;
+
+
+
+
+Berdasarkan hasil percobaan, perubahan indikator yang sesuai untuk mengisi nomor (10),(11), dan (12) pada tabel secara berturut-turut adalah ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Menyala, banyak, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Menyala, sedikit, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Tidak menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Tidak menyala, tidak ada, tidak bergerak</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan yang dilakukan pada larutan etanol, &lt;b&gt;tidak terdapat perubahan&lt;/b&gt; indikator nyala lampu, gelembung gas, dan jarum penunjuk avometer pada alat uji daya hantar listrik larutan sehingga jawaban yang tepat adalah lampu tidak menyala, tidak ada gelembung gas, dan jarum penunjuk tidak bergerak. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan tabel berikut:
+
+
+
+	&lt;sprite="indoTable" index=4&gt;
+
+
+
+
+Berdasarkan hasil percobaan, perubahan indikator yang sesuai untuk mengisi nomor (13),(14), dan (15) pada tabel secara berturut-turut adalah ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Menyala, banyak, bergerak</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Menyala, sedikit, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Tidak menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Tidak menyala, tidak ada, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan yang dilakukan pada larutan HCl, &lt;b&gt;terdapat perubahan&lt;/b&gt; indikator nyala lampu, gelembung gas, dan jarum penunjuk avometer pada alat uji daya hantar listrik larutan sehingga jawaban yang tepat adalah lampu menyala, banyak gelembung gas, dan jarum penunjuk bergerak.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan tabel berikut:
+
+
+
+	&lt;sprite="indoTable" index=5&gt;
+
+
+
+
+Berdasarkan hasil percobaan, perubahan indikator yang sesuai untuk mengisi nomor (16),(17), dan (18) pada tabel secara berturut-turut adalah ....</Info>
+      <Answers>
+        <Answer>
+          <info>A.Menyala, banyak, bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Menyala, sedikit, bergerak</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Tidak menyala, sedikit, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Tidak menyala, tidak ada, tidak bergerak</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan yang dilakukan pada larutan cuka (asam asetat), &lt;b&gt;terdapat perubahan&lt;/b&gt; indikator nyala lampu, gelembung gas, dan jarum penunjuk avometer pada alat uji daya hantar listrik larutan sehingga jawaban yang tepat adalah lampu menyala, sedikit gelembung gas, dan jarum penunjuk bergerak.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Diketahui data hasil percobaan uji elektrolit beberapa larutan sebagai berikut:
+
+
+
+	&lt;sprite="indoTable" index=6&gt;
+
+
+
+
+
+Berdasarkan tabel hasil percobaan, urutan bertambahnya kekuatan daya hantar listrik larutan yang tepat adalah ….</Info>
+      <Answers>
+        <Answer>
+          <info>A. Minyak goreng, gula dan etanol =&gt; Cuka =&gt; Garam dapur dan HCl</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B. Cuka =&gt; Minyak goreng, gula dan etanol =&gt; Garam dapur dan HCl</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C. Garam dapur dan HCl =&gt; Cuka =&gt; Minyak goreng, gula dan etanol </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D. Minyak goreng, gula dan cuka =&gt; Etanol =&gt; Garam dapur dan HCl</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E. Garam dapur dan HCl =&gt; Etanol =&gt; Minyak goreng, gula dan cuka</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Berdasarkan hasil percobaan uji elektrolit beberapa larutan, terdapat tiga kelompok larutan berdasarkan perubahan indikator nyala lampu, gelembung gas pada elektroda, dan jarum penunjuk avometer sebagai berikut:
+-&gt; Lampu tidak menyala, tidak ada gelembung gas pada elektroda, dan jarum penunjuk avometer tidak bergerak adalah perubahan indikator pada minyak goreng, larutan gula, dan larutan etanol
+-&gt;Lampu menyala, sedikit gelembung gas pada elektroda, dan jarum penunjuk avometer bergerak adalah perubahan indikator pada larutan cuka
+-&gt;Lampu menyala, banyak gelembung gas pada elektroda, dan jarum penunjuk avometer bergerak adalah perubahan indikator pada larutan garam dapur dan larutan HCl </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>0</AddScore>
+    </Question>
+    <Question>
+      <Info>Pada pengujian larutan NaCl, lampu menyala terang yang berarti terdapat banyak ion dalam larutan. Berdasarkan hal tersebut dapat diketahui bahwa…..</Info>
+      <Answers>
+        <Answer>
+          <info>A.Gaya tarik-menarik antara molekul air dan partikel-partikel NaCl cukup kuat sehingga memungkinkan partikel Na&lt;sup&gt;+&lt;/sup&gt; dan Cl&lt;sup&gt;-&lt;/sup&gt; lepas sebagai ion bebas.</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Gaya tarik menarik molekul air dan NaCl tidak mampu memutuskan salah satu ikatan dalam molekul NaCl. Akibatnya, walaupun zat larut namun tidak dapat membentuk ion-ion. </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Gaya tarik menarik molekul air dan NaCl mampu memutuskan salah satu ikatan kovalen dalam molekul NaCl sehingga dapat membentuk ion-ion bebas. </info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Gaya tarik menarik molekul air dan NaCl mampu memutuskan semua ikatan kovalen dalam molekul NaCl sehingga dapat membentuk ion-ion bebas.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Gaya tarik menarik molekul air dan NaCl mampu memutuskan salah satu ikatan kovalen O--H dalam molekul air sehingga terjadi pelepasan sedikit ion Na&lt;sup&gt;+&lt;/sup&gt; dan Cl&lt;sup&gt;-&lt;/sup&gt;.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Pada pengujian NaCl, lampu menyala terang karena terdapat banyak ion dalam larutan. Hal ini menunjukkan gaya tarik-menarik antara molekul air dan partikel-partikel NaCl cukup kuat sehingga memungkinkan partikel Na&lt;sup&gt;+&lt;/sup&gt; dan Cl&lt;sup&gt;-&lt;/sup&gt; lepas sebagai ion bebas. Semakin banyak ion bebas dalam larutan maka semakin banyak pula elektron yang diteruskan dari baterai ke lampu sehingga lampu menyala terang. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan gambar berikut!
+
+
+
+	&lt;sprite="8" index=0&gt;
+
+
+
+
+
+Berdasarkan proses penguraian molekul CH&lt;sub&gt;3&lt;/sub&gt;COOH tersebut menjadi ion-ion, dapat disimpulkan bahwa….</Info>
+      <Answers>
+        <Answer>
+          <info>A.Senyawa CH&lt;sub&gt;3&lt;/sub&gt;COOH tidak mengalami ionisasi sehingga tidak terbentuk ion</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Proses ionisasi CH&lt;sub&gt;3&lt;/sub&gt;COOH menghasilkan sedikit ion yaitu CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; dan H&lt;sup&gt;+&lt;/sup&gt;.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Proses ionisasi CH&lt;sub&gt;3&lt;/sub&gt;COOH menghasilkan sedikit ion yaitu CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; dan H&lt;sup&gt;+&lt;/sup&gt;, dan sebagian besar masih berbentuk molekul CH&lt;sub&gt;3&lt;/sub&gt;COOH</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Proses ionisasi CH&lt;sub&gt;3&lt;/sub&gt;COOH menghasilkan banyak ion yaitu CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; dan H&lt;sup&gt;+&lt;/sup&gt;</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Proses ionisasi CH&lt;sub&gt;3&lt;/sub&gt;COOH menghasilkan banyak ion yaitu CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; dan H&lt;sup&gt;+&lt;/sup&gt;, dan sebagian kecil masih berbentuk molekul CH&lt;sub&gt;3&lt;/sub&gt;COOH</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>H&lt;sub&gt;2&lt;/sub&gt;O dan CH&lt;sub&gt;3&lt;/sub&gt;COOH merupakan senyawa polar yang mempunyai muatan parsial positif dan parsial negatif sehingga gaya tarik menarik cukup kuat antara molekul air dan CH&lt;sub&gt;3&lt;/sub&gt;COOH untuk memutuskan sedikit ikatan kovalen O─H pada molekul CH3COOH. Hal tersebut menyebabkan proses ionisasi CH&lt;sub&gt;3&lt;/sub&gt;COOH menghasilkan sedikit ion yaitu CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; dan H&lt;sup&gt;+&lt;/sup&gt;, dan sebagian besar masih berbentuk molekul CH&lt;sub&gt;3&lt;/sub&gt;COOH. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Arus listrik dalam rangkaian alat uji larutan elektrolit terdapat 2 jenis arus listrik yaitu aliran arus listrik pada rangkaian luar (kawat) dan rangkaian dalam (larutan elektrolit). Pernyataan berikut yang sesuai adalah ….</Info>
+      <Answers>
+        <Answer>
+          <info>A.Tidak terdapat aliran elektron dan ion yang mengalir pada rangkaian</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Pada rangkaian luar, arus listrik merupakan aliran elektron sedangkan pada rangkaian dalam, arus listrik merupakan aliran ion</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Pada rangkaian luar, arus listrik merupakan aliran ion sedangkan pada rangkaian dalam, arus listrik merupakan aliran elektron</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Pada rangkaian luar dan pada rangkaian dalam, arus listrik merupakan aliran elektron</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Pada rangkaian luar dan pada rangkaian dalam, arus listrik merupakan aliran ion</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Pada rangkaian alat uji larutan elektrolit terdapat 2 jenis arus listrik. Pertama, pada rangkaian luar (kawat), arus listrik merupakan aliran elektron. Elektron ini mengalir dari kutub negatif baterai kemudian masuk ke larutan melalui elektroda, yang selanjutnya akan mengalir ke lampu sehingga lampu mampu menyala terang.  Kemudian elektron akan terdeteksi sebagai arus listrik sehingga jarum pada jarum penunjuk bergerak. Elektron selanjutnya masuk kembali lagi ke kutub positif baterai. Kedua, pada rangkaian dalam (larutan elektrolit), arus listrik merupakan aliran ion. Ion bebas berasal dari penguraian molekul berupa ion positif dan negatif. Ion positif (kation) akan tertarik ke katode, menyerap elektron, dan membentuk gas. Ion negatif akan tertarik ke anode, melepaskan elektron, dan membentuk gas. </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Menangkap ikan di sungai dan laut dengan setrum listrik dilarang oleh pemerintah. Alasan yang paling tepat adalah …..</Info>
+      <Answers>
+        <Answer>
+          <info>A.Air di sungai dapat menghantarkan listrik jika dialiri arus listrik sehingga dapat menyebabkan ikan kecil mati</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Air di sungai mengandung polutan seperti HCl (elektrolit kuat) yang dapat menghantarkan listrik jika dialiri arus listrik sehingga dapat menyebabkan ikan kecil mati</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Air di laut mengandung senyawa NaCl (elektrolit kuat) yang tidak dapat menghantarkan listrik sehingga dapat menyebabkan ikan kecil mati</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Air di laut mengandung senyawa urea (elektrolit lemah) yang dapat menghantarkan listrik jika dialiri arus listrik sehingga dapat menyebabkan ikan kecil mati</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Air di sungai dan laut dapat menghantarkan listrik jika dialiri arus listrik sehingga tidak dapat menyebabkan keseimbangan ekosistem terganggu.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Menangkap ikan di sungai, danau dan laut dengan setrum listrik dilarang oleh pemerintah karena aliran listrik dapat menyebabkan ikan kecil di air ikut mati, padahal yang dibutuhkan pemancing adalah ikan yang besar sehingga berdampak pada terganggunya keseimbangan ekosistem. Air di sungai mengandung polutan yang berasal dari limbah rumah tangga seperti cairan pembersih lantai mengandung HCl (elektrolit kuat) yang dapat menghantarkan listrik dengan baik jika dialiri arus listrik. Selain itu, polutan yang berasal dari sisa makanan seperti asam cuka juga dapat mengantarkan listrik dengan lemah jika dialiri listrik. Air di laut mengandung NaCl (elektrolit kuat) yang dapat menghantarkan listrik jika dialiri arus listrik.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Bagaimana kesimpulan yang diperoleh berdasarkan data pengamatan dan analisis data? Apakah kesimpulan yang dirumuskan sesuai dengan hipotesis yang Anda buat?</Info>
+      <Answers>
+        <Answer>
+          <info>A.Jenis larutan mempengaruhi daya hantar listrik. Elektrolit kuat mengion sempurna sehingga menghantarkan listrik dengan baik sedangkan elektrolit lemah menghantarkan listrik dengan buruk (Sesuai)</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Jenis larutan mempengaruhi daya hantar listrik. Elektrolit dapat menghantarkan listrik sedangkan nonelektrolit tidak dapat menghantarkan listrik (Tidak sesuai)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Jenis ikatan kovalen mempengaruhi daya hantar listrik. Senyawa yang mempunyai ikatan kovalen polar dapat menghantarkan listrik (Sesuai)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Jenis ikatan kovalen mempengaruhi daya hantar listrik. Senyawa yang mempunyai ikatan kovalen nonpolar dapat menghantarkan listrik (Tidak sesuai)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Jenis ikatan kovalen mempengaruhi daya hantar listrik. Senyawa yang mempunyai ikatan kovalen polar dapat menghantarkan listrik sedangkan ikatan kovalen non polar tidak dapat menghantarkan listrik (Tidak sesuai)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Kesimpulan yang tepat adalah jenis larutan mempengaruhi daya hantar listrik. Larutan elektrolit kuat dapat mengion sempurna sehingga menghantarkan listrik dengan baik, elektrolit lemah menghantarkan listrik dengan buruk, sedangkan nonelektrolit tidak dapat mengion dalam air sehingga tidak dapat menghantarkan listrik. Jadi kesimpulan yang diperoleh sesuai dengan hipotesis.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+  </Questions>
+</Data>

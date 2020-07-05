@@ -2,7 +2,7 @@ using UnityEngine;
 public class FisherManager : Singleton<FisherManager> {
     private int playerHealth;
     private int playerScore;
-    
+    [SerializeField] AudioSource bgmAudio;
     [SerializeField] private GameObject _quiz;
     [SerializeField] QuizManager _quizManager;
     private GameObject fishObject;
@@ -12,6 +12,7 @@ public class FisherManager : Singleton<FisherManager> {
         isCorrectAnswers = false;
         playerHealth = GameUtility.PlayerHealth;
         playerScore = GameUtility.PlayerScore;
+        if(bgmAudio != null) bgmAudio.mute = GameUtility.mute;
     }
     public void OpenQuiz(GameObject other){
         GameManager.Instance.isPaused = true;
@@ -24,6 +25,13 @@ public class FisherManager : Singleton<FisherManager> {
         if (isCorrectAnswers)
             return fishObject;
         return null;
+    }
+    public void UpdateHealth(){
+        playerHealth -= 1;
+        UIManager.Instance.UpdateUI(playerHealth, playerScore);
+        if(playerHealth == 0){
+            GameManager.Instance.SceneReload();
+        }
     }
     public void CloseQuiz(bool answer)
     {

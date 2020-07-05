@@ -23,8 +23,12 @@ public class AnswerData : MonoBehaviour {
     private int _answerIndex = -1;
     public int AnswerIndex{get{return _answerIndex;}}
     private bool _checked = false;
-    public void UpdateData(string info,int index){
+    public void UpdateData(string info,int index,float size=0f,bool autofont = true){
         infoTextObject.text = info;
+        if(!autofont){
+            infoTextObject.enableAutoSizing = autofont;
+            infoTextObject.fontSize = size;
+        }
         _answerIndex = index;
     }
     public void Reset(){

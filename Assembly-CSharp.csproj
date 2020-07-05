@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\Level1\Fisher\FisherManager.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\Gun.cs" />
      <Compile Include="Assets\Scripts\Level1\Fisher\SpawnFish.cs" />
+     <Compile Include="Assets\Scripts\Level1\Fisher\SpawnTrash.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\Level1\Platformer\EnemyController.cs" />
@@ -51,6 +52,7 @@
      <Compile Include="Assets\Scripts\Level2\Inventory.cs" />
      <Compile Include="Assets\Scripts\Level2\Slot.cs" />
      <Compile Include="Assets\Scripts\Level2\TrialManager.cs" />
+     <Compile Include="Assets\Scripts\Level2\VideoExperimental.cs" />
      <Compile Include="Assets\Scripts\Level3\QAManager.cs" />
      <Compile Include="Assets\Scripts\Quiz\AnswerData.cs" />
      <Compile Include="Assets\Scripts\Quiz\QuizManager.cs" />
@@ -66,19 +68,22 @@
      <Compile Include="Assets\Scripts\System\SceneTransasition.cs" />
      <Compile Include="Assets\Scripts\System\Singleton.cs" />
      <Compile Include="Assets\Scripts\System\StreamVideo.cs" />
+     <Compile Include="Assets\Scripts\System\TextSizer.cs" />
+     <Compile Include="Assets\Scripts\System\TextWriter.cs" />
+     <Compile Include="Assets\Scripts\System\TextWriterAssistant.cs" />
      <Compile Include="Assets\Scripts\System\UIManager.cs" />
-     <None Include="Assets\StreamingAssets\id_Question_Data.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\StreamingAssets\id_QuizOnly.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\StreamingAssets\en_QuizOnly.xml" />
      <None Include="Assets\StreamingAssets\en_Sungai_QuestionData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\StreamingAssets\id_Laut_QuestionData.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\StreamingAssets\en_Question_Data.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
@@ -669,11 +674,6 @@
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
       <Project>{46e53060-a0b2-caba-0e6e-8fcab40e9c21}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{a1195e5c-d94e-9a6c-b978-07a886883866}</Project>
-      <Name>Unity.Rider.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">

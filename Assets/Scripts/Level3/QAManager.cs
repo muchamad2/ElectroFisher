@@ -10,18 +10,20 @@ public class QAManager : Singleton<QAManager>
     public QuizManager _quizManager;
     public GameEvents events;
     public TextMeshProUGUI totalScoreTxt;
+    [SerializeField] AudioSource bgmAudio;
     private void Start()
     {
         playerHealth = GameUtility.PlayerHealth;
         playerScore = GameUtility.PlayerScore;
         events.scoreUpdated += updateScore;
         UIManager.Instance.UpdateUI(playerHealth, playerScore);
+        if(bgmAudio != null) bgmAudio.mute = GameUtility.mute;
     }
     public void startDiscussion()
     {
         firstPlay.SetActive(false);
         QAPanel.SetActive(true);
-        _quizManager.Display();
+        _quizManager.DisplayUrut();
     }
     public void updateScore(bool state)
     {

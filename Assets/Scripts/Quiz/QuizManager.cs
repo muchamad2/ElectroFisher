@@ -17,10 +17,11 @@ public class QuizManager : MonoBehaviour
     public string Filename { get => filename; set => filename = value; }
 
     private Color timerDefaultColor = Color.white;
-
+    [Header("Game Object References")]
     [SerializeField] GameEvents events = null;
     [SerializeField] GameObject emoticon = null;
     [SerializeField] GameObject explanation = null;
+    [SerializeField] GameObject closeExplanation = null;
     private List<AnswerData> PickedAnswers = new List<AnswerData>();
     private List<int> FinishedQuestions = new List<int>();
     private List<int> CorrectAnswerQuestions = new List<int>();
@@ -103,6 +104,17 @@ public class QuizManager : MonoBehaviour
         }
         UpdateTime(question.UseTimer);
     }
+    public void DisplayUrut(){
+        EraseAnswers();
+        if(openEmoticon != null)
+            StopCoroutine(openEmoticon);
+        var question = data.Questions[currentQuestions];
+        
+        if(events.updateQuestionUI != null)
+            events.updateQuestionUI(question);
+        UpdateTime(question.UseTimer);
+
+    }
 
     public void Accept()
     {
@@ -131,15 +143,15 @@ public class QuizManager : MonoBehaviour
                 {
                     events.displayResolutionScreen(data.Questions[currentQuestions].AddScore);
                 } */
-        if (!GameManager.Instance.isQuestionOnly)
+        /* if (!GameManager.Instance.isQuestionOnly)
         {
             if (CorrectAnswerQuestions.Count >= 3 && FinishedQuestions.Count >= data.Questions.Length)
             {
                 Debug.Log("Change Scene to Platform Scene");
                 GameManager.Instance.SceneLoad(2);
             }
-        }
-        else
+        } */
+        if(GameManager.Instance.isQuestionOnly)
         {
             UpdateScore(isCorrect);
         }
@@ -152,8 +164,10 @@ public class QuizManager : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
         emoticon.SetActive(false);
         
-        if(explanation != null)
+        if(explanation != null){
             explanation.SetActive(state);
+            
+        }
 
         if (!GameManager.Instance.isQuestionOnly)
             FisherManager.Instance.CloseQuiz(state);
@@ -161,8 +175,7 @@ public class QuizManager : MonoBehaviour
         {
             if (FinishedQuestions.Count == data.Questions.Length)
                 QAManager.Instance.ShowTotalScore();
-            else
-                Display();
+            
         }
 
     }
@@ -198,6 +211,7 @@ public class QuizManager : MonoBehaviour
         else
             return data.Questions[0];
     }
+    
     int getRandomQuestionIndex()
     {
         int random = 0;
@@ -270,6 +284,18 @@ public class QuizManager : MonoBehaviour
     }
     public void CloseExplanationArea(){
         explanation.SetActive(false);
+        if(GameManager.Instance.isQuestionOnly){
+            currentQuestions++;
+            DisplayUrut();
+        }else if (!GameManager.Instance.isQuestionOnly)
+        {
+            if (CorrectAnswerQuestions.Count >= 3 && FinishedQuestions.Count >= data.Questions.Length)
+            {
+                Debug.Log("Change Scene to Platform Scene");
+                GameManager.Instance.SceneLoad(2);
+            }
+        }
+            
     }
     private void UpdateScore(bool state)
     {

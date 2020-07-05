@@ -12,6 +12,7 @@ public static class GameUtility
     public static int PlayerHealth { get; set; }
     public static int FinalScore{get;set;}
     public static bool isPlaying = false;
+    public static bool mute = false;
 
     public static EnvironmentType environmentType { get; set; }
 

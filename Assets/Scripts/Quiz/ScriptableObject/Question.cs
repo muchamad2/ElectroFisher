@@ -19,6 +19,7 @@ public class Question
     public int Timer = 0;
     [TextArea]
     public string Explanation = string.Empty;
+    public bool isAlredyRead = false;
     public AnswerType AnswerType = AnswerType.Single;
     public  int AddScore = 1;
     public List<int> GetCorrectListAnswers(){

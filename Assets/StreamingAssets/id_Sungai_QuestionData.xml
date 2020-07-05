@@ -29,10 +29,12 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>Fenomena tersebut terjadi di laut dan sungai dimana dalam airnya mengandung zat terlarut yang berbeda. Zat terlarut yang berbeda akan menyebabkan jenis larutan yang berbeda sehingga akan mempengaruhi daya hantar listrik dalam larutannya. Rumusan yang cocok yaitu:
+      <Explanation>
+Fenomena tersebut terjadi di laut dan sungai dimana dalam airnya mengandung zat terlarut yang berbeda. Zat terlarut yang berbeda akan menyebabkan jenis larutan yang berbeda sehingga akan mempengaruhi daya hantar listrik dalam larutannya. Rumusan yang cocok yaitu:
 
 Bagaimana pengaruh jenis larutan terhadap kekuatan daya hantar listriknya?
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -62,11 +64,13 @@ Bagaimana pengaruh jenis larutan terhadap kekuatan daya hantar listriknya?
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>Rumusan masalah dari fenomena tersebut : Bagaimana pengaruh jenis larutan terhadap kekuatan daya hantar listriknya?
+      <Explanation>
+Rumusan masalah dari fenomena tersebut : Bagaimana pengaruh jenis larutan terhadap kekuatan daya hantar listriknya?
 Hipotesis ilmiah merupakan jawaban sementara terhadap masalah yang akan diteliti sehingga hipotesis yang sesuai yaitu:
 
 Jenis larutan mempengaruhi daya hantar listrik larutannya.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -96,8 +100,10 @@ Jenis larutan mempengaruhi daya hantar listrik larutannya.
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>Elektrolit adalah zat-zat yang dilarutkan dengan air akan terurai menjadi ion-ion yang bergerak bebas yaitu ion negatif dan ion positif sehingga larutannya dapat menghantarkan listrik.
+      <Explanation>
+Elektrolit adalah zat-zat yang dilarutkan dengan air akan terurai menjadi ion-ion yang bergerak bebas yaitu ion negatif dan ion positif sehingga larutannya dapat menghantarkan listrik.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -113,7 +119,7 @@ Jenis larutan mempengaruhi daya hantar listrik larutannya.
           <isCorrect>true</isCorrect>
         </Answer>
         <Answer>
-          <info>Larutan A terionisasi sempurna dan larutan B tidak terionisasi</info>
+          <info>Larutan A dan B tidak terionisasi</info>
           <isCorrect>false</isCorrect>
         </Answer>
         <Answer>
@@ -127,8 +133,10 @@ Jenis larutan mempengaruhi daya hantar listrik larutannya.
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>Larutan A terjadi ionisasi sempurna karena sebagian besar atau seluruh molekul zat bereaksi dengan air sehingga terbentuk ion-ion yang bergerak bebas dalam larutan yang menyebabkan dapat menghantarkan listrik ditinjau dari nyala terang lampu dan bergeraknya jarum penunjuk pada avometer sedangkan larutan B tidak terionisasi karena molekul zat tidak terurai menjadi ion-ion (tetap menjadi molekul) ketika dilarutkan dalam air.
+      <Explanation>
+Larutan A terjadi ionisasi sempurna karena sebagian besar atau seluruh molekul zat bereaksi dengan air sehingga terbentuk ion-ion yang bergerak bebas dalam larutan yang menyebabkan dapat menghantarkan listrik ditinjau dari nyala terang lampu dan bergeraknya jarum penunjuk pada avometer sedangkan larutan B tidak terionisasi karena molekul zat tidak terurai menjadi ion-ion (tetap menjadi molekul) ketika dilarutkan dalam air.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -158,8 +166,51 @@ Jenis larutan mempengaruhi daya hantar listrik larutannya.
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>Jika dalam wujud zat padat maka tidak dapat menghantarkan listrik karena ion-ion zat terikat sangat rapat sehingga tidak dapat mengion, sedangkan dalam wujud zat cair dapat menghantarkan listrik karena ion-ion zat sangat renggang sehingga ion-ion tersebut bebas bergerak untuk menghantarkan listrik.
+      <Explanation>
+Jika dalam wujud zat padat maka tidak dapat menghantarkan listrik karena ion-ion zat terikat sangat rapat sehingga tidak dapat mengion, sedangkan dalam wujud zat cair dapat menghantarkan listrik karena ion-ion zat sangat renggang sehingga ion-ion tersebut bebas bergerak untuk menghantarkan listrik.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Dalam suatu praktikum, beberapa bahan yang terdapat di kehidupan sehari-hari diuji dengan alat uji elektrolit. Data yang dihasilkan adalah sebagai berikut:
+
+
+&lt;sprite="sungaiintbl" index=0&gt;
+
+
+
+
+Berdasarkan data percobaan di atas, dapat disimpulkan bahwa …..</Info>
+      <Answers>
+        <Answer>
+          <info>Garam, cuka, dan air jeruk memiliki sifat elektrolit</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Garam, cuka, dan air jeruk memiliki sifat nonelektrolit</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Gula dan urea memiliki sifat elektrolit</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Semua bahan yang diuji memiliki sifat elektrolit</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Semua bahan yang diuji memiliki sifat nonelektrolit</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Explanation>
+Indikator untuk mengidentifikasi jenis larutan dilihat dari nyala lampu, bergerak tidaknya jarum penunjuk pada avometer dan gelembung gas pada elektroda. Larutan elektrolit akan menunjukan indikator lampu menyala, terdapat gelembung pada elektroda, dan jarum penunjuk pada avometer bergerak (skala bukan 0).
+</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

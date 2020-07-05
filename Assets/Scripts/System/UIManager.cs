@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 [System.Serializable]
 public struct InGameUIElements
@@ -17,6 +18,15 @@ public struct InGameUIElements
     [SerializeField] TextMeshProUGUI _labelNo;
     public TextMeshProUGUI LabelNo { get { return _labelNo; } }
 }
+[System.Serializable]
+public struct ChangerText{
+    public TextMeshProUGUI uiText;
+    [TextArea]
+    public string indoText;
+    [TextArea]
+    public string engText;
+}
+
 public class UIManager : Singleton<UIManager>
 {
     [SerializeField] TextMeshProUGUI scoreTxt;
@@ -25,6 +35,10 @@ public class UIManager : Singleton<UIManager>
     [Header("UI References")]
     [SerializeField] TextScript IndoScript;
     [SerializeField] TextScript EngScript;
+    [Header("UI Text References")]
+    [SerializeField] ChangerText[] textChange;
+    private List<TextChanger> textChangers;
+    
 
     private void Start()
     {
@@ -32,6 +46,21 @@ public class UIManager : Singleton<UIManager>
             ChangeLanguage(IndoScript);
         else
             ChangeLanguage(EngScript);
+        
+        for (int i = 0; i < textChange.Length; i++)
+        {
+            switch (GameUtility.LangType)
+            {
+                case Language.Indo: 
+                textChange[i].uiText.text = textChange[i].indoText;
+                break;
+                case Language.Eng:
+                textChange[i].uiText.text = textChange[i].engText;
+                break;
+            }
+        }
+        
+
     }
     void ChangeLanguage(TextScript script)
     {
@@ -50,5 +79,27 @@ public class UIManager : Singleton<UIManager>
     {
         scoreTxt.text = "" + score;
         healthTxt.text = "" + health;
+    }
+
+    public class TextChanger{
+        public TextMeshProUGUI uiText;
+        private string indoText;
+        private string engText;
+        public TextChanger(TextMeshProUGUI uiText,string indoTxt, string engText){
+            this.uiText = uiText;
+            this.indoText = indoText;
+            this.engText = engText;
+        }
+        public void Start(){
+            switch (GameUtility.LangType)
+            {
+                case Language.Indo: 
+                uiText.text = indoText;
+                break;
+                case Language.Eng:
+                uiText.text = engText;
+                break;
+            }
+        }
     }
 }

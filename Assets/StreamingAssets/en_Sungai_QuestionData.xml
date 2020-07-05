@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <lang>Eng</lang>
-  <filename>en_Sungai_QuestionData.xml</filename>
+  <filename>_Sungai_QuestionData.xml</filename>
   <Questions>
     <Question>
       <Info>How is problem formulation based on this phenomenon?</Info>
@@ -34,6 +34,7 @@
 How is the effect of solution type on the strength of electrical conductivity?
 
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -70,6 +71,7 @@ Scientific hypothesis is a temporary answer to the problem to be studied so that
 The type of solution affects the strength of solution electrical conductivity.
 
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -101,6 +103,7 @@ The type of solution affects the strength of solution electrical conductivity.
       <Timer>20</Timer>
       <Explanation>Electrolytes are substances dissolved in water that break down into free moving ions, namely negative ions and positive ions so that the solution can conduct electricity.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -132,6 +135,7 @@ The type of solution affects the strength of solution electrical conductivity.
       <Timer>20</Timer>
       <Explanation>Solution A occurs complete ionization because most or all of the molecules in substance react with water so that the ions move freely in solution that causes it can conduct electricity, can be seen in the light of lamp and the pointer on avometer. While the solution B is not ionized because the substance molecule is not break down into ions (remain molecules) when dissolved in water.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -163,6 +167,48 @@ The type of solution affects the strength of solution electrical conductivity.
       <Timer>20</Timer>
       <Explanation>If the form of substance is solid, it can’t conduct electricity because the ions of substance are bonded so tight so that it can’t ionize, whereas in the form of liquid it can conduct electricity because the ions of substance are very tenuous so that the ions are free to move to conduct electricity.
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>In an experiment, several substances found in everyday life are tested with an electrolyte test kit. The data generated is as follows:
+
+
+
+&lt;sprite="sungaientbl" index=0&gt;
+
+
+
+Based on the experimental data above, it can be concluded that ...
+</Info>
+      <Answers>
+        <Answer>
+          <info>A.Salt solution, vinegar, and orange water have electrolyte properties</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Salt solution, vinegar, and orange water have non-electrolyte properties</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Sugar and urea have electrolyte properties</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.All substances tested have electrolyte properties</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.All substances tested have non-electrolyte properties</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Explanation>Indicator to identify the type of solution seen from the light of the lamp, whether or not the pointer moves on the avometer and gas bubbles on the electrode. The electrolyte solution will show: 
+the indicator lights on, there are bubbles on the electrode, and the pointer in avometer moves (scale is not 0).</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

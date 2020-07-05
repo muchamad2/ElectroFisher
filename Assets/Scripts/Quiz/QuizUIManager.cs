@@ -21,11 +21,11 @@ public struct QuizUIElements
     [SerializeField] TextMeshProUGUI _scoreText;
     public TextMeshProUGUI ScoreText { get { return _scoreText; } }
     [SerializeField] TextMeshProUGUI _explanationText;
-    public TextMeshProUGUI ExplanationInfo{get{return _explanationText;}}
+    public TextMeshProUGUI ExplanationInfo { get { return _explanationText; } }
     [SerializeField] TextMeshProUGUI _answerText;
-    public TextMeshProUGUI AnswerInfo{get{return _answerText;}}
+    public TextMeshProUGUI AnswerInfo { get { return _answerText; } }
     [SerializeField] TextMeshProUGUI _closeText;
-    public TextMeshProUGUI CloseInfo{get{return _closeText;}}
+    public TextMeshProUGUI CloseInfo { get { return _closeText; } }
 }
 public class QuizUIManager : MonoBehaviour
 {
@@ -38,7 +38,7 @@ public class QuizUIManager : MonoBehaviour
     [SerializeField] bool isActiveAdditional;
     [SerializeField] TextScript indoTextScript;
     [SerializeField] TextScript engTextScript;
-    
+
     [Header("UI Elements (Prefabs)")]
     [SerializeField] AnswerData answerPrefab;
     [SerializeField] QuizUIElements uIElements;
@@ -60,11 +60,15 @@ public class QuizUIManager : MonoBehaviour
     }
     private void Start()
     {
-        if(isActiveAdditional){
-            if(GameUtility.LangType == Language.Indo){
+        if (isActiveAdditional)
+        {
+            if (GameUtility.LangType == Language.Indo)
+            {
                 uIElements.AnswerInfo.text = indoTextScript.AnswerText.Info;
                 uIElements.CloseInfo.text = indoTextScript.CloseText.Info;
-            }else{
+            }
+            else
+            {
                 uIElements.AnswerInfo.text = engTextScript.AnswerText.Info;
                 uIElements.CloseInfo.text = engTextScript.CloseText.Info;
             }
@@ -87,7 +91,10 @@ public class QuizUIManager : MonoBehaviour
         for (int i = 0; i < question.Answers.Length; i++)
         {
             AnswerData newAnswer = (AnswerData)Instantiate(answerPrefab, uIElements.AnswerContentArea);
-            newAnswer.UpdateData(question.Answers[i].info, i);
+            if (GameManager.Instance.isQuestionOnly)
+                newAnswer.UpdateData(question.Answers[i].info, i, 24f, false);
+            else
+                newAnswer.UpdateData(question.Answers[i].info, i);
 
             newAnswer.Rect.anchoredPosition = new Vector2(0, offset);
             offset -= (newAnswer.Rect.sizeDelta.y + parameters.Margins);

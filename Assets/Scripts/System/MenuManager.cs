@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 [System.Serializable]
@@ -25,6 +26,18 @@ public struct MenuUIElement
     [SerializeField] TextMeshProUGUI _titleBtnLogin;
     public TextMeshProUGUI BtnLogin { get { return _titleBtnLogin; } }
 }
+[System.Serializable]
+public struct ImageChange{
+    public Image imgae;
+    public Sprite indoImg;
+    public Sprite engImg;
+}
+[System.Serializable]
+public struct TextChanger{
+    public TextMeshProUGUI textToChange;
+    public string indoText;
+    public string engText;
+}
 public class MenuManager : MonoBehaviour
 {
     private static MenuManager _instance;
@@ -46,6 +59,11 @@ public class MenuManager : MonoBehaviour
 
     [Header("UI Text Elements")]
     public MenuUIElement element;
+    [SerializeField] TextChanger[] textChangers;
+    [Header("UI Image References")]
+    [SerializeField] ImageChange[] imgChanges;
+    [Header("Audio References")]
+    [SerializeField] AudioSource bgmSource;
     private void Awake()
     {
         if(_instance != null && _instance !=this)
@@ -70,6 +88,7 @@ public class MenuManager : MonoBehaviour
             loginContent.SetActive(false);
             mainContent.SetActive(true);
         }
+        
     }
     public void ChangeLanguage(string lang)
     {
@@ -108,6 +127,31 @@ public class MenuManager : MonoBehaviour
     {
         InitiateContent.SetActive(false);
         loginContent.SetActive(true);
+        for (int i = 0; i < imgChanges.Length; i++)
+        {
+            switch (GameUtility.LangType)
+            {
+                case Language.Indo: 
+                imgChanges[i].imgae.sprite = imgChanges[i].indoImg;
+                break;
+                case Language.Eng:
+                imgChanges[i].imgae.sprite = imgChanges[i].engImg;
+                break;
+            }
+        }
+    }
+    public void Audio(){
+        if(bgmSource != null){
+            if(bgmSource.isPlaying){
+                bgmSource.mute = true;
+                bgmSource.Stop();
+            }
+            else{
+                bgmSource.Play();
+                bgmSource.mute = false;
+            }
+            GameUtility.mute = bgmSource.mute;
+        }
     }
     public void Login()
     {
@@ -115,12 +159,25 @@ public class MenuManager : MonoBehaviour
         GameUtility.PlayerGrade = inputGrade.text;
         loginContent.SetActive(false);
         mainContent.SetActive(true);
+        for (int i = 0; i < textChangers.Length; i++)
+        {
+            switch (GameUtility.LangType)
+            {
+                case Language.Indo: 
+                textChangers[i].textToChange.text = textChangers[i].indoText;
+                break;
+                case Language.Eng:
+                textChangers[i].textToChange.text = textChangers[i].engText;
+                break;
+            }
+        }
     }
     public void Play()
     {
-        Debug.Log("Player Name = " + GameUtility.PlayerName + " Player Grade : " + GameUtility.PlayerGrade);
-        SceneTransasition.Instance.LoadScene(1);
+        //Debug.Log("Player Name = " + GameUtility.PlayerName + " Player Grade : " + GameUtility.PlayerGrade);
+        
         GameUtility.isPlaying = true;
+        SceneTransasition.Instance.LoadScene(1);
     }
     public void Quit()
     {

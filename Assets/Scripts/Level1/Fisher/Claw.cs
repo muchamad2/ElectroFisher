@@ -13,6 +13,7 @@ public class Claw : MonoBehaviour
     private GameObject childObject;
     private LineRenderer lineRenderer;
     private bool hitFish;
+    private bool hitTrash = false;
     private bool retracting;
     private void Awake()
     {
@@ -33,6 +34,9 @@ public class Claw : MonoBehaviour
                 if (hitFish)
                 {
                     hitFish = false;
+                }else if(hitTrash){
+                    FisherManager.Instance.UpdateHealth();
+                    hitTrash = false;
                 }
                 Destroy(childObject);
                 gameObject.SetActive(false);
@@ -66,6 +70,10 @@ public class Claw : MonoBehaviour
         {
             hitFish = true;
             FisherManager.Instance.OpenQuiz(other.gameObject);
+        }else if(other.gameObject.CompareTag("Sampah") && !hitTrash){
+            hitTrash = true;
+            childObject = other.gameObject;
+            childObject.transform.SetParent(this.transform);
         }
     }
 }

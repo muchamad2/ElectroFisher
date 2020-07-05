@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.cinemachine.edito
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{41fe5c5b-761f-910a-4b61-74adcf0bee2a}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rider.Editor", "Unity.Rider.Editor.csproj", "{a1195e5c-d94e-9a6c-b978-07a886883866}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Editor", "Unity.2D.Tilemap.Editor.csproj", "{b79bb173-17bb-d119-d9c3-d2a32abed458}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.CollabProxy.Editor", "Unity.CollabProxy.Editor.csproj", "{46e53060-a0b2-caba-0e6e-8fcab40e9c21}"
@@ -64,8 +62,6 @@ Global
 		{f7aa1623-5cf4-a27f-60ac-fb8699df741f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41fe5c5b-761f-910a-4b61-74adcf0bee2a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{41fe5c5b-761f-910a-4b61-74adcf0bee2a}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{a1195e5c-d94e-9a6c-b978-07a886883866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{a1195e5c-d94e-9a6c-b978-07a886883866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b79bb173-17bb-d119-d9c3-d2a32abed458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b79bb173-17bb-d119-d9c3-d2a32abed458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46e53060-a0b2-caba-0e6e-8fcab40e9c21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

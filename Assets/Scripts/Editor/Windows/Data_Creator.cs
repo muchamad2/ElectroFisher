@@ -100,6 +100,12 @@ public class Data_Creator : EditorWindow
             serializedObject.ApplyModifiedProperties();
             serializedObject.Update();
         }
+        createButtonRect.x -= createButtonRect.width;
+        pressed = GUI.Button(createButtonRect,"Switch",EditorStyles.miniButtonLeft);
+        if(pressed){
+            GameUtility.LangType = data.lang;
+            serializedObject.ApplyModifiedProperties();
+        }
         #endregion
 
     }

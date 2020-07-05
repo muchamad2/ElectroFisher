@@ -17,9 +17,10 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] SpriteRenderer spriteRenderer = null;
     public GameObject optionPanel;
     public GameObject explanationArea = null;
-    
+    [SerializeField] AudioSource bgmAudio;
+
     public bool isPaused { get; set; }
-    
+
     private void Awake()
     {
 
@@ -32,14 +33,21 @@ public class GameManager : Singleton<GameManager>
         isPaused = false;
 
         UIManager.Instance.UpdateUI(playerHealth, playerScore);
-        if (quiz != null)
+        if (!isQuestionOnly)
         {
-            if (GameUtility.environmentType == EnvironmentType.Forest)
-                quiz.Filename = "_Sungai_QuestionData.xml";
-            else
-                quiz.Filename = "_Laut_QuestionData.xml";
+            if (quiz != null)
+            {
+                if (GameUtility.environmentType == EnvironmentType.Forest)
+                    quiz.Filename = "_Sungai_QuestionData.xml";
+                else
+                    quiz.Filename = "_Laut_QuestionData.xml";
+            }
+        }else{
+            if(quiz != null){
+                quiz.Filename = "_QuizOnly.xml";
+            }
         }
-
+        if(bgmAudio != null) bgmAudio.mute = GameUtility.mute;
     }
     private void LateUpdate()
     {
@@ -47,10 +55,11 @@ public class GameManager : Singleton<GameManager>
         {
             onOption();
         }
-        
+
     }
 
-    public void CloseExplanationArea(){
+    public void CloseExplanationArea()
+    {
 
     }
 
@@ -67,7 +76,8 @@ public class GameManager : Singleton<GameManager>
             isPaused = true;
         }
     }
-    public void SceneReload(){
+    public void SceneReload()
+    {
         SceneTransasition.Instance.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }

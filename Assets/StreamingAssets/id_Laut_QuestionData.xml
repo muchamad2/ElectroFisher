@@ -34,7 +34,16 @@ Kesimpulan yang dapat diambil adalah…
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation />
+      <Explanation>
+
+
+	&lt;sprite="l1tabel" index=0&gt;
+
+
+
+
+Berdasarkan hasil percobaan tersebut, merupakan ciri-ciri senyawa ion.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -64,7 +73,16 @@ Kesimpulan yang dapat diambil adalah…
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation />
+      <Explanation>
+
+
+	&lt;sprite="l1tabel" index=0&gt;
+
+
+
+
+Contoh senyawa ion adalah NaCl. Contoh senyawa kovalen polar adalah HCl dan CH&lt;sub&gt;3&lt;/sub&gt;COOH. Sehingga pernyataan dengan ciri-ciri dan contoh senyawa yang tepat adalah pilihan A.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -95,10 +113,12 @@ Kesimpulan yang dapat diambil adalah…
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>α = mol yang terionisasi / mol zat yang dolarutkan
+      <Explanation>
+α = mol yang terionisasi / mol zat yang dilarutkan
 α = 2 mol / 3 mol
 α = 0,667
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -129,9 +149,11 @@ Kesimpulan yang dapat diambil adalah…
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>Mol zat yang dilarutkan = 20 gram / 40gram.mol-1 = 0,5 gram
-α = 0,25 mol / 0,5 mol = 0,5 (elektrolit lemah)
+      <Explanation>
+Mol zat yang dilarutkan = 20 gram : 40gram.mol&lt;sup&gt;-1&lt;/sup&gt; = 0,5 gram
+α = 0,25 mol : 0,5 mol = 0,5 (elektrolit lemah)
 </Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>
@@ -162,9 +184,49 @@ Variabel percobaan yang sesuai yaitu…</Info>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>20</Timer>
-      <Explanation>-&gt;Variabel manipulasi : jenis larutan 
+      <Explanation>
+-&gt;Variabel manipulasi : jenis larutan 
 -&gt;Variabel kontrol : alat uji daya hantar listrik dan konsentrasi larutan
 -&gt;Variabel respon : daya hantar listrik (nyala lampu, gelembung gas, gerak tidaknya jarum avometer)</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Perhatikan gambar berikut!
+
+
+&lt;sprite="lautintbl" index=0&gt;
+
+
+Berdasarkan gambar di atas yang termasuk ciri-ciri larutan elektrolit kuat adalah nomor 1 dan 2 sehingga larutan elektrolit kuat adalah larutan yang...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Sebagian kecil senyawanya terurai menjadi ion-ion ketika dilarutkan ke air</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Sebagian kecil (50-60%) senyawanya terurai menjadi ion-ion ketika dilarutkan ke air</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Sebagian besar (50-60%) senyawanya terurai menjadi ion positif dan ion negatif</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Sebagian besar (70-100%) senyawanya terurai menjadi ion-ion ketika dilarutkan ke air</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Sebagian besar (70-100%) senyawanya terurai menjadi molekul ketika dilarutkan ke air</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Explanation>
+Larutan elektrolit kuat adalah larutan yang sebagian besar atau seluruh (70-100%) senyawanya terurai menjadi ion-ion ketika dilarutkan ke dalam air</Explanation>
+      <isAlredyRead>false</isAlredyRead>
       <AnswerType>Single</AnswerType>
       <AddScore>1</AddScore>
     </Question>

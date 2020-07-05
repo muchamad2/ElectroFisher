@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lang>Eng</lang>
+  <filename>_QuizOnly.xml</filename>
+  <Questions>
+    <Question>
+      <Info>Observe the following table: 
+
+
+
+	&lt;sprite="engTable" index=0&gt;
+
+
+
+
+
+Based on the experiment result, the appropriate indicator changes to fill in numbers (1), (2), and (3) in the table in sequence is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Light on, a lot of, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Light on, a little, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Light on, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Not lit, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Not lit, nothing, doesn’t move</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the experiment result conducted on cooking oil, &lt;b&gt;there is no change&lt;/b&gt; in the indicator of light, gas bubbles, and avometer needle on the electrical conductivity test of solution so that the correct answer is that the lamp is not lit, there is no gas bubble, and the needle doesn’t move.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Observe the following table: 
+
+
+
+
+	&lt;sprite="engTable" index=1&gt;
+
+
+
+
+
+Based on the experiment result, the appropriate indicator changes to fill in numbers (4), (5), and (6) in the table in sequence is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Light on, a lot of, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Light on, a little, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Light on, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Not lit, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Not lit, nothing, doesn’t move</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the experiment result conducted on sugar solution, &lt;b&gt;there is no change&lt;/b&gt; in the indicator of light, gas bubbles, and avometer needle on the electrical conductivity test of solution so that the correct answer is that the lamp is not lit, there is no gas bubble, and the needle doesn’t move.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Observe the following table: 
+
+
+
+
+	&lt;sprite="engTable" index=2&gt;
+
+
+
+
+
+Based on the experiment result, the appropriate indicator changes to fill in numbers (7), (8), and (9) in the table in sequence is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Light on, a lot of, move</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Light on, a little, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Light on, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Not lit, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Not lit, nothing, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the experiment result conducted on table salt solution, &lt;b&gt;there are changes&lt;/b&gt; in the indicator of light, gas bubbles, and avometer needle on the electrical conductivity test of solution so that the correct answer is that the light is on, there is a lot of gas bubbles, and the needle moves.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>0</AddScore>
+    </Question>
+    <Question>
+      <Info>Observe the following table: 
+
+
+
+
+	&lt;sprite="engTable" index=3&gt;
+
+
+
+
+
+Based on the experiment result, the appropriate indicator changes to fill in numbers (10), (11), and (12) in the table in sequence is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Light on, a lot of, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Light on, a little, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Light on, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Not lit, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Not lit, nothing, doesn’t move</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the experiment result conducted on ethanol solution, &lt;b&gt;there is no change&lt;/b&gt; in the indicator of light, gas bubbles, and avometer needle on the electrical conductivity test of solution so that the correct answer is that the lamp is not lit, there is no gas bubble, and the needle doesn’t move.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Observe the following table: 
+
+
+
+
+	&lt;sprite="engTable" index=4&gt;
+
+
+
+
+
+Based on the experiment result, the appropriate indicator changes to fill in numbers (13), (14), and (15) in the table in sequence is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Light on, a lot of, move</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Light on, a little, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Light on, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Not lit, a little, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Not lit, nothing, doesn’t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the experiment result conducted on hydrochloric acid solution (HCl), &lt;b&gt;there are changes&lt;/b&gt; in the indicator of light, gas bubbles, and avometer needle on the electrical conductivity test of solution so that the correct answer is that the light is on, there is a lot of gas bubbles, and the needle movese.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Observe the following table: 
+
+
+
+
+	&lt;sprite="engTable" index=5&gt;
+
+
+
+
+
+Based on the experiment result, the appropriate indicator changes to fill in numbers (16), (17), and (18) in the table in sequence is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Light on, a lot of, move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Light on, a little, move</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Light on, a little, doesn`t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Not lit, a little, doesn`t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Not lit, nothing, doesn`t move</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the experiment result conducted on vinegar solution (HCl), &lt;b&gt;there are changes&lt;/b&gt; in the indicator of light, gas bubbles, and avometer needle on the electrical conductivity test of solution so that the correct answer is that the light is on, there is a little of gas bubbles, and the needle moves.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Known data from the electrolyte test result of several solutions as follows:
+
+
+
+
+	&lt;sprite="engTable" index=6&gt;
+
+
+
+
+
+Based on the table of experiment result, the order of increasing electrical conductivity of the solutions correctly is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Cooking oil, sugar and ethanol -&gt; Vinegar -&gt; Table salt and HCl</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Vinegar -&gt; Cooking oil, sugar and ethanol -&gt; Table salt and HCl</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Table salt and HCl -&gt; Vinegar -&gt; Cooking oil, sugar and ethanol</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Cooking oil, sugar and vinegar -&gt; Ethanol -&gt; Table salt and HCl</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.Table salt and HCl -&gt; Ethanol -&gt; Cooking oil, sugar and vinegar</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Based on the electrolyte test result of several solutions, there are three groups of solutions based on changes in the indicator of light on lamp, gas bubbles on the electrodes, and the avometer needle as follows:
+-&gt;The lamp turns off, there is no gas bubbles on the electrodes, and the avometer needle doesn’t move. Those are the indicator changes on cooking oil, sugar solution, and ethanol solution.
+-&gt;The lamp turns on, there is a little of gas bubbles on the electrodes, and the avometer needle moves. Those are the indicator changes on vinegar solution.
+-&gt;The lamp turns on, there is a lot of gas bubbles on the electrodes, and the avometer needle moves. Those are the indicator changes on table salt solution and HCl solution.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>In the test of NaCl solution, the light of lamp is bright which means that there are many ions in solution. Based on this fact, it can be known that ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.The force of attraction between water molecules and NaCl particles is strong enough to allow Na&lt;sup&gt;+&lt;/sup&gt; and Cl&lt;sup&gt;-&lt;/sup&gt; particles to release as free ions.</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.The force of attraction between water molecules and NaCl particles is not able to break one of the bonds in NaCl molecule. As a result, although substances dissolve, they can`t form ions.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.The force of attraction between water molecules and NaCl particles is able to break one of the covalent bonds in NaCl molecule so that it can form free ions.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.The force of attraction between water molecules and NaCl particles is able to break all covalent bonds in NaCl molecule so that it can form free ions.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.The force of attraction between water molecules and NaCl particles is able to break one of the covalent bonds O--H in water molecule so that it releases few Na&lt;sup&gt;+&lt;/sup&gt; and Cl&lt;sup&gt;-&lt;/sup&gt; ions.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>In the test of NaCl solution, the light of lamp is bright because there are many ions in the solution. This shows that the force of attraction between the water molecule and NaCl particles is strong enough to allow Na&lt;sup&gt;+&lt;/sup&gt; and Cl&lt;sup&gt;-&lt;/sup&gt; particles to release as free ions. The more free ions in solution, the more electrons are passed from battery to lamp so that the light is bright.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Look at the following picture!
+
+
+
+
+	&lt;sprite="8" index=0&gt;
+
+
+
+
+
+Based on that decomposition process of CH&lt;sub&gt;3&lt;/sub&gt;COOH molecules become ions, it can be concluded that ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.The CH&lt;sub&gt;3&lt;/sub&gt;COOH compounds do not undergo ionization so that no ions are formed</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.The CH&lt;sub&gt;3&lt;/sub&gt;COOH ionization process produces a few ions, namely CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; and H&lt;sup&gt;+&lt;/sup&gt;</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.The CH&lt;sub&gt;3&lt;/sub&gt;COOH ionization process produces a few ions namely CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; and H&lt;sup&gt;+&lt;/sup&gt;, and some particles are still in the form of CH&lt;sub&gt;3&lt;/sub&gt;COOH molecules</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.The CH&lt;sub&gt;3&lt;/sub&gt;COOH ionization process produces many ions, namely CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; and H&lt;sup&gt;+&lt;/sup&gt;</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.The CH&lt;sub&gt;3&lt;/sub&gt;COOH ionization process produces many ions namely CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; and H&lt;sup&gt;+&lt;/sup&gt;, and a few particles are still in the form of CH&lt;sub&gt;3&lt;/sub&gt;COOH molecules</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>H&lt;sub&gt;2&lt;/sub&gt;O and CH&lt;sub&gt;3&lt;/sub&gt;COOH are polar compounds that have positive partial and negative partial charges so that the force of attraction between the water molecule and CH&lt;sub&gt;3&lt;/sub&gt;COOH molecule is strong enough to break a few covalent bond O─H in the CH&lt;sub&gt;3&lt;/sub&gt;COOH molecules. This causes the CH&lt;sub&gt;3&lt;/sub&gt;COOH ionization process to produce a few ions, namely CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; and H&lt;sup&gt;+&lt;/sup&gt;, and some particles are still in the form of CH&lt;sub&gt;3&lt;/sub&gt;COOH molecules.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>0</AddScore>
+    </Question>
+    <Question>
+      <Info>There are 2 types of electric current in the electrolyte test apparatus, namely the flow of electric current in the outer circuit (wire) and the inner circuit (electrolyte solution). The following statement that is appropriate is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.There is no flow of electrons and ions in the circuit</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.In the outer circuit, the electric current is the flow of electrons while in the inner circuit, the electric current is the flow of ions</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.In the outer circuit, the electric current is the flow of ions while in the inner circuit, the electric current is the flow of electrons</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.In the outer circuit and inner circuit, the electric current is the flow of electrons</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.In the outer circuit and inner circuit, the electric current is the flow of ions</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>In the electrolyte solution test apparatus, there are 2 types of electric current. First, in the outer circuit (wire), electric current is the flow of electrons. These electrons flow from the negative pole of battery then enter the solution through electrode, which will flow into the lamp so that the lamp is able to light on. Then the electrons will be detected as an electric current so the needle on avometer moves. Then electrons re-enter the battery's positive pole. Second, in the inner circuit (electrolyte solution), the electric current is the flow of ions. Free ions come from the breakdown of molecules into positive ions and negative ions. Positive ions (cations) will be attracted to the cathode, absorb electrons, and form gas. Negative ions will be attracted to the anode, release electrons, and form gas.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>Catching fish in river and sea by electrifying is prohibited by the government. The most appropriate reason is ...</Info>
+      <Answers>
+        <Answer>
+          <info>A.Water in river can conduct electricity if electric current is flowed so that it can cause small fish to die</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.Water in the river contains pollutants such as HCl compounds (strong electrolytes) which can conduct electricity if electric current is flowed so that it can cause small fish to die</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.Water in the sea contains NaCl compounds (strong electrolytes) that can’t conduct electricity so that it can cause small fish to die</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.Water in the sea contains urea compounds (weak electrolyte) that can conduct electricity if electric current is flowed so it can cause small fish to die</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>Water in river and sea can conduct electricity if electric current is flowed so that it can’t cause disturbed ecosystem balance.</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>Catching fish in river, lake and sea by electrifying is prohibited by the government because electricity can cause small fish to die in the water, even though what is needed by fisherman is large fish so that it affects the disturbed ecosystem balance. The water in river contains pollutants that come from household waste such as floor cleaning fluid, it contains HCl compounds (strong electrolytes) that can conduct electricity strongly if electric current is flowed. Furthermore, pollutants from leftover food such as vinegar can also conduct electricity weakly if electric current is flowed. Water in the sea contains NaCl (strong electrolytes) which can conduct electricity when electric current is flowed.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+    <Question>
+      <Info>How is the conclusion obtained based on observation data and data analysis? Is the conclusion formulated appropriate with the hypothesis you made?</Info>
+      <Answers>
+        <Answer>
+          <info>A.The type of solution affects the electrical conductivity. Strong electrolyte ionizes completely so that it conducts electricity strongly while weak electrolyte conducts electricity weakly (Appropriate)</info>
+          <isCorrect>true</isCorrect>
+        </Answer>
+        <Answer>
+          <info>B.The type of solution affects the electrical conductivity. Electrolyte can conduct electricity while non-electrolyte can`t conduct electricity (Not appropriate)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>C.The type of covalent bond affects the electrical conductivity. Compounds that have polar covalent bonds can conduct electricity (Appropriate)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>D.The type of covalent bond affects the electrical conductivity. Compounds that have nonpolar covalent bonds can conduct electricity (Not appropriate)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+        <Answer>
+          <info>E.The type of covalent bond affects the electrical conductivity. Compounds that have polar covalent bonds can conduct electricity while non-polar covalent bonds can`t conduct electricity (Not appropriate)</info>
+          <isCorrect>false</isCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Explanation>The right conclusion is the type of solution affects the electrical conductivity. Strong electrolyte solution ionizes completely so that it conducts electricity strongly, weak electrolyte conducts electricity weakly, while non-electrolyte can’t ionize in water so it can’t conduct electricity. So the conclusion is appropriate with the hypothesis.</Explanation>
+      <isAlredyRead>false</isAlredyRead>
+      <AnswerType>Single</AnswerType>
+      <AddScore>1</AddScore>
+    </Question>
+  </Questions>
+</Data>

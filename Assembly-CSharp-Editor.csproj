@@ -229,6 +229,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="I18N">
         <HintPath>D:/Project/Unity/ElectroFisher/Assets/I18N.dll</HintPath>
     </Reference>
@@ -642,11 +645,6 @@
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
       <Project>{46e53060-a0b2-caba-0e6e-8fcab40e9c21}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{a1195e5c-d94e-9a6c-b978-07a886883866}</Project>
-      <Name>Unity.Rider.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
